@@ -1,0 +1,139 @@
+body {
+  font-family: "museo-sans";
+}
+
+a {
+  color: #88BF43;
+}
+
+a:hover {
+  color: #88BF43;
+}
+
+#intro {
+  height: auto;
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.8);
+  padding: 75px 0;
+  background: #1d1d1d;
+  text-align: center;
+}
+
+#nodelogo {
+  width: 250px;
+}
+
+h1 {
+  font-family: "bello-pro",sans-serif;
+  font-size: 5em;
+  padding-top: 50px;
+  color: #88BF43;
+}
+
+h2 {
+  font-family: "bello-pro",sans-serif;
+  color:#88BF43;
+}
+
+h2 .subtitle {
+  line-height:105px;
+  height:80px;
+}
+
+h3 {
+  font-family: "bello-pro",sans-serif;
+  font-size: 2em;
+}
+
+.header-logo {
+  vertical-align:bottom;
+  height:100px;
+}
+
+.spacer {
+  font-family: "bello-pro",sans-serif;
+  padding-top: 20px;
+  background-color: #88BF43;
+}
+
+.inforow {
+  font-family: "bello-pro",sans-serif;
+  font-size: 1em;
+  padding-top: 10px;
+  padding-right: 15px;
+  color: black;
+  background-color: #88BF43;
+}
+
+.register a {
+  color: #1d1d1d;
+}
+
+.speakers, .supporters, .team, .agenda {
+  margin-top: 50px;
+}
+
+.agenda small {
+  color: gray;
+}
+
+.speaker, .member {
+  margin-bottom: 66px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.speaker-portrait, .member-portrait {
+  min-width: 150px;
+  height: 400px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.speaker-name, .member-name {
+  line-height:2em;
+  text-transform:uppercase;
+  padding-left:10px;
+  border-bottom:3px solid rgba(35,39,35,0.2);
+  color:black;
+  display:block;
+  font-weight:bold;
+  margin-bottom:10px;
+  width:100%;
+  z-index:100
+}
+
+.speaker-profile, .member-profile {
+  padding: 10px;
+}
+
+.supporter {
+  height: 200px;
+  line-height: 200px;
+}
+
+.supporter-logo {
+  max-width: 250px;
+  vertical-align: middle;
+}
+
+.mostimportant {
+  font-size: 1.5em;
+  margin-top: 45px;
+  padding: 25px;
+  color: black;
+  background-color: white;
+}
+
+.intro {
+  font-size: 1.2em;
+  padding: 25px;
+  color: black;
+}
+
+div.equal {
+  display: -webkit-flex;
+  display: flex;
+}
