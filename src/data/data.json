@@ -1,0 +1,24 @@
+{
+  "speakers": [],
+  "supporters": [
+    {
+      "name": "Mobile World Capital",
+      "logo": "/assets/images/mwc2x.png",
+      "url": "http://mobileworldcapital.com"
+    },
+    {
+      "name": "Barcelona.IO",
+      "logo": "/assets/images/barcelonaio.jpg",
+      "url": "http://www.barcelona.io"
+    }
+  ],
+  "team": [
+    {
+      "twitter": "PatrickHeneise",
+      "name": "Patrick Heneise",
+      "portrait": "/assets/images/patrick.jpg",
+      "bio": "Patrick is Software Architect, engineering (mobile) solutions from server side services and APIs in node.js to html5 apps in JavaScript. He organises BarcelonaJS and the Couchbase Group Barcelona."
+    }
+  ],
+  "agenda": []
+}
