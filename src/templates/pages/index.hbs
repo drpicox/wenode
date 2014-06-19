@@ -62,10 +62,9 @@
   </div>
   {{#each speakers}}
   <div class="speaker equal col-xs-12 col-sm-12 col-md-4">
-    <div class="speaker-portrait col-xs-6 col-sm-2" style="background-image: url({{portrait}});"></div>
+    <div class="speaker-portrait col-xs-12- col-sm-12 col-md-4" style="background-image: url({{portrait}});"></div>
     <div class="speaker-profile">
       <span class="speaker-name">{{name}}</span>
-      <p>{{bio}}</p>
       <a href="http://twitter.com/{{twitter}}"><i class="fa fa-twitter"></i> {{twitter}}</a>
     </div>
   </div>
@@ -104,12 +103,14 @@
     <h3 class="col-sm-offset-1">Team</h3>
   </div>
   {{#each team}}
-  <div class="member equal col-xs-12 col-sm-12 col-md-6">
-    <div class="member-portrait col-xs-6 col-sm-2" style="background-image: url({{portrait}});"></div>
+  <div class="member col-xs-12 col-sm-6 col-md-3">
+    <div class="hexagon member-portrait" style="background-image: url({{portrait}});"">
+      <div class="hexTop"></div>
+      <div class="hexBottom"></div>
+    </div>
     <div class="member-profile">
       <span class="member-name">{{name}}</span>
-      <p>{{bio}}</p>
-      <a href="http://twitter.com/{{twitter}}"><i class="fa fa-twitter"></i> {{twitter}}</a>
+      <i class="fa fa-twitter"></i> {{twitter}}
     </div>
   </div>
   {{/each}}
