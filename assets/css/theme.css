@@ -8,6 +8,7 @@ a {
 
 a:hover {
   color: #88BF43;
+  text-decoration: none;
 }
 
 #intro {
@@ -16,9 +17,13 @@ a:hover {
   width: 100%;
   position: relative;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.8);
-  padding: 75px 0;
+  padding: 25px 0;
   background: #1d1d1d;
   text-align: center;
+}
+
+#intro p {
+  color: white;
 }
 
 #nodelogo {
@@ -37,9 +42,10 @@ h2 {
   color:#88BF43;
 }
 
-h2 .subtitle {
-  line-height:105px;
-  height:80px;
+.subtitle {
+  line-height:50px;
+  height:75px;
+  font-size: 25px;
 }
 
 h3 {
@@ -55,16 +61,13 @@ h3 {
 .spacer {
   font-family: "bello-pro",sans-serif;
   padding-top: 20px;
+  padding-right: 15px;
+  color: #1d1d1d;
   background-color: #88BF43;
 }
 
-.inforow {
-  font-family: "bello-pro",sans-serif;
-  font-size: 1em;
-  padding-top: 10px;
-  padding-right: 15px;
-  color: black;
-  background-color: #88BF43;
+.spacer a {
+  color: #1d1d1d;
 }
 
 .register a {
