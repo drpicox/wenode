@@ -79,36 +79,6 @@ h3 {
   color: gray;
 }
 
-.speaker, .member {
-  margin-bottom: 66px;
-  padding-left: 0;
-  padding-right: 0;
-}
-
-.speaker-portrait, .member-portrait {
-  min-width: 150px;
-  height: 400px;
-  background-position: center center;
-  background-repeat: no-repeat;
-}
-
-.speaker-name, .member-name {
-  line-height:2em;
-  text-transform:uppercase;
-  padding-left:10px;
-  border-bottom:3px solid rgba(35,39,35,0.2);
-  color:black;
-  display:block;
-  font-weight:bold;
-  margin-bottom:10px;
-  width:100%;
-  z-index:100
-}
-
-.speaker-profile, .member-profile {
-  padding: 10px;
-}
-
 .supporter {
   height: 200px;
   line-height: 200px;
@@ -133,7 +103,70 @@ h3 {
   color: black;
 }
 
-div.equal {
-  display: -webkit-flex;
-  display: flex;
+.hexagon {
+  position: relative;
+  width: 150px;
+  left: 35px;
+  height: 86.60px;
+  margin: 43.30px 0;
+  background-color: #88BF43;
+  background-size: auto 173.2051px;
+  background-position: center;
+}
+
+.hexTop,
+.hexBottom {
+  position: absolute;
+  z-index: 1;
+  width: 106.07px;
+  height: 106.07px;
+  overflow: hidden;
+  -webkit-transform: scaleY(0.5774) rotate(-45deg);
+  -ms-transform: scaleY(0.5774) rotate(-45deg);
+  transform: scaleY(0.5774) rotate(-45deg);
+  background: inherit;
+  left: 21.97px;
+}
+
+/*counter transform the bg image on the caps*/
+.hexTop:after,
+.hexBottom:after {
+  content: "";
+  position: absolute;
+  width: 150.0000px;
+  height: 86.60254037844388px;
+  -webkit-transform:  rotate(45deg) scaleY(1.7321) translateY(-43.3013px);
+  -ms-transform:      rotate(45deg) scaleY(1.7321) translateY(-43.3013px);
+  transform:          rotate(45deg) scaleY(1.7321) translateY(-43.3013px);
+  -webkit-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
+  background: inherit;
+}
+
+.hexTop {
+  top: -53.0330px;
+}
+
+.hexTop:after {
+  background-position: center top;
+}
+
+.hexBottom {
+  bottom: -53.0330px;
+}
+
+.hexBottom:after {
+  background-position: center bottom;
+}
+
+.hexagon:after {
+  content: "";
+  position: absolute;
+  top: 0.0000px;
+  left: 0;
+  width: 150.0000px;
+  height: 86.6025px;
+  z-index: 2;
+  background: inherit;
 }
