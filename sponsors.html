@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="A one-day node.js conference in Barcelona.">
+  <meta name="keywords" content="javascript, nodejs, node.js, backend, backendjs, servers, server, embedded, mobile">
+  <meta name="author" content="Patrick Heneise, patrick@barcelonajs.org">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>We node! by BarcelonaJS</title>
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+  <!-- Custom styles for this template -->
+  <link href="assets/css/theme.css" rel="stylesheet">
+
+  <!-- Webfonts -->
+  <script type="text/javascript" src="//use.typekit.net/mqp5ibc.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="assets/ico/favicon.png">
+  <link rel="shortcut icon" href="favicon.ico">
+</head>
+
+<body>
+
+  <div class="container-fluid" role="main">
+
+    <div class="row">
+  <section id="intro" data-speed="4" data-type="background">
+    <a href="index.html"><h1 class="title">Don't node?<br />We node!</h1></a>
+    <h2 class="subtitle">by BarcelonaJS <a href="http://barcelonajs.org"><img class="header-logo" src="/assets/images/logo.png" alt="logo" /></a></h2>
+    <div class="mostimportant">
+      <span class="when">4. October 2014</span><br />
+      <span class="where">Mobile World Centre, C/ de Fontanella, 2, Barcelona</span>
+    </div>
+    <div class="clearfix intro">
+      <div class="col-xs-8 col-xs-offset-2 col-sm-8 col-sm-offset-2">
+        <h2>Thank you for your interest!</h2>
+        <p>BarcelonaJS is a monthly event organised by the JavaScript community in Barcelona with an average of 60 attendees at the Mobile World Center in Barcelona. Our social media channels count over 1100 follwers on Twitter and Google+ and more than 400 email recipients, with a ~70% open rate.</p>
+        <p>We run regular non-profit events and conferences apart from the monthly event, for example <a href="http://mobile.barcelonajs.org">MobileJS</a> which had 9 international speakers, 85 participants and was supported by Mozilla, Adobe, Telefonica and other great companies.</p>
+        <p>WeNode, our fist Node.js conference, is an opportunity for you to reach a strong technical audience as well as a great community of JavaScript enthusiasts.</p>
+        <h2>As a sponsor/supporter</h2>
+        <p>We offer your logo and link on our conference website, in all email communication, and on our conference t-shirts. Further options can also be explored with the team.</p>
+        <p>To enquire about sponsorship or media access, please contact Patrick at patrick@barcelonajs.org or for general info wenode@barcelonajs.org</p>
+      </div>
+    </div>
+  </section>
+</div>
+
+<section class="meta row">
+  <div class="col-xs-12 text-center">
+    <h4>A BarcelonaJS event. <a href="http://barcelonajs.org/code">Code of Conduct</a></h4>
+  </div>
+</section>
+
+
+  </div>
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      // cache the window object
+      $window = $(window);
+
+      $('section[data-type="background"]').each(function() {
+        var $scroll = $(this);
+
+        $(window).scroll(function() {
+          // HTML5 proves useful for helping with creating JS functions!
+          // also, negative value because we're scrolling upwards
+          var yPos = -($window.scrollTop() / $scroll.data('speed'));
+
+          // background position
+          var coords = '50% ' + yPos + 'px';
+
+          // move the background
+          $scroll.css({
+            backgroundPosition: coords
+          });
+        }); // end window scroll
+      }); // end section function
+    }); // close out script
+
+    /* Create HTML5 element for IE */
+    document.createElement("section");
+  </script>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-37507281-5', 'barcelonajs.org');
+  ga('send', 'pageview');
+  </script>
+</body>
+
+</html>
