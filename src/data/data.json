@@ -1,5 +1,19 @@
 {
-  "speakers": [],
+  "speakers": [
+    {
+      "name": "Alex Fernández",
+      "slug": "alex-fernandez",
+      "twitter": "pinchito",
+      "portrait": "https://pbs.twimg.com/profile_images/488783233220227072/fhn6MqZS.jpeg"
+    },
+    {
+      "name": "Krasimir Tsonev",
+      "slug": "krasimir-tsonev",
+      "twitter": "KrasimirTsonev",
+      "portrait": "http://work.krasimirtsonev.com/avatar/pic.jpg"
+    }
+
+  ],
   "supporters": [
     {
       "name": "Mobile World Capital",
