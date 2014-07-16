@@ -8,6 +8,7 @@ lib-cov
 *.gz
 *.yo-rc.json
 dist
+.grunt
 
 pids
 logs
