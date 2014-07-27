@@ -1,7 +1,7 @@
 ---
 layout: speakers
 title: Alex Fernández
-portrait: https://pbs.twimg.com/profile_images/488783233220227072/fhn6MqZS.jpeg
+portrait: /assets/images/alex-fernandez.png
 twitter: pinchito
 ---
 

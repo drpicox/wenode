@@ -102,8 +102,12 @@ h3 {
   color: #1d1d1d;
 }
 
-.speakers, .supporters, .team, .agenda {
-  margin-top: 50px;
+.register .btn {
+  font-size: 28px;
+}
+
+.speakers, .speaker, .supporters, .team, .agenda {
+  margin-top: 75px;
 }
 
 .agenda small {

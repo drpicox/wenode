@@ -4,7 +4,7 @@
       "name": "Alex Fernández",
       "slug": "alex-fernandez",
       "twitter": "pinchito",
-      "portrait": "https://pbs.twimg.com/profile_images/488783233220227072/fhn6MqZS.jpeg"
+      "portrait": "/assets/images/alex-fernandez.png"
     },
     {
       "name": "Krasimir Tsonev",
@@ -17,8 +17,13 @@
       "slug": "javier-abadia",
       "twitter": "javierabadia",
       "portrait": "/assets/images/javier-abadia.jpg"
+    },
+    {
+      "name": "Martin Neumann",
+      "slug": "martin-neumann",
+      "twitter": "g33konaut",
+      "portrait": "/assets/images/martin-neumann.jpg"
     }
-
   ],
   "supporters": [
     {
