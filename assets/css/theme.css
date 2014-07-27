@@ -22,6 +22,34 @@ a:hover {
   text-align: center;
 }
 
+#speakers-intro {
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.8);
+  padding: 15px 0;
+  background: #1d1d1d;
+  text-align: center;
+}
+
+#speakers-intro .title {
+  padding-top: 0;
+  font-size: 4em;
+}
+
+#speakers-intro .subtitle {
+  font-size: 2em;
+}
+
+#speakers-intro .header-logo {
+  height: 75px;
+}
+
+.speaker-detail {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
 #intro p {
   color: white;
 }
@@ -74,8 +102,12 @@ h3 {
   color: #1d1d1d;
 }
 
-.speakers, .supporters, .team, .agenda {
-  margin-top: 50px;
+.register .btn {
+  font-size: 28px;
+}
+
+.speakers, .speaker, .supporters, .team, .agenda {
+  margin-top: 75px;
 }
 
 .agenda small {
@@ -110,10 +142,20 @@ h3 {
   color: black;
 }
 
+.hexagon-center {
+  position: relative;
+  width: 150px;
+  height: 86.60px;
+  margin: 43.30px auto;
+  background-color: #88BF43;
+  background-size: auto 173.2051px;
+  background-position: center;
+}
+
 .hexagon {
   position: relative;
   width: 150px;
-  left: 35px;
+  left: 40px;
   height: 86.60px;
   margin: 43.30px 0;
   background-color: #88BF43;
