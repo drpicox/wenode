@@ -1,5 +1,30 @@
 {
-  "speakers": [],
+  "speakers": [
+    {
+      "name": "Alex Fernández",
+      "slug": "alex-fernandez",
+      "twitter": "pinchito",
+      "portrait": "/assets/images/alex-fernandez.png"
+    },
+    {
+      "name": "Krasimir Tsonev",
+      "slug": "krasimir-tsonev",
+      "twitter": "KrasimirTsonev",
+      "portrait": "http://work.krasimirtsonev.com/avatar/pic.jpg"
+    },
+    {
+      "name": "Javier Abadía",
+      "slug": "javier-abadia",
+      "twitter": "javierabadia",
+      "portrait": "/assets/images/javier-abadia.jpg"
+    },
+    {
+      "name": "Martin Neumann",
+      "slug": "martin-neumann",
+      "twitter": "g33konaut",
+      "portrait": "/assets/images/martin-neumann.jpg"
+    }
+  ],
   "supporters": [
     {
       "name": "Mobile World Capital",

@@ -1,43 +1,35 @@
 <div class="row">
   <section id="intro" data-speed="4" data-type="background">
-    <img id="nodelogo" src="/assets/images/node.svg" alt="node.js" />
     <h1 class="title">Don't node?<br />We node!</h1>
     <h2 class="subtitle">by BarcelonaJS <a href="http://barcelonajs.org"><img class="header-logo" src="/assets/images/logo.png" alt="logo" /></a></h2>
     <div class="mostimportant">
-      <span class="when">11. October 2014</span><br />
+      <span class="when">4. October 2014</span><br />
       <span class="where">Mobile World Centre, C/ de Fontanella, 2, Barcelona</span>
     </div>
     <div class="clearfix intro">
       <div class="col-xs-12 col-sm-4">
         <p>WeNode – a one-day not-for-profit conference about node.js, server-side and embedded JavaScript technologies.</p>
         <p>A full day packed with talks and workshops; all about our favorite programming language: JavaScript. Beginners and experts, hackers and ninjas are all invited to join us to a day of node.</p>
+        <p>Organised by BarcelonaJS for the community.</p>
       </div>
       <div class="col-xs-12 col-sm-4">
-        <p></p>
+        <p>WeNode – una conferencia de un día sin animo de lucro sobre tecnologías  node.js, server-side y embedded Javascript.</p>
+        <p>Un día completo lleno de charlas y talleres; todo acerca tu lenguaje favorito de programación: Javascript. Principiantes y expertos, hackers y ninjas, estáis todos invitados a uniros a nosotros en un día de node.</p>
+        <p>Organitzat des de BarcelonaJS per a la comunitat.</p>
       </div>
       <div class="col-xs-12 col-sm-4">
-        <p></p>
+        <p>WeNode – una conferencia d'un dia sense anim de lucre sobre node.js, i tecnologies server-side i embedded Javascript.</p>
+        <p>Un dia complet de xerrades i tallers; tot sobre el teu llenguatge favorit de programació: Javascript. Principiants i experts, hackers i ninjas, tots sou convidats a unir-vos a nosaltres en un dia de node.</p>
+        <p>Organizado desde BarcelonaJS para la comunidad.</p>
       </div>
     </div>
   </section>
 </div>
 
 <div class="spacer row">
-  <h3 class="text-center register"><a class="btn btn-default btn-lg" href="http://tickets.barcelonajs.org">Register interest</a></h3>
+  <h3 class="text-center register"><a class="btn btn-default btn-lg" href="http://tickets.barcelonajs.org">Buy your ticket</a></h3>
   <p class="text-right"><i class="fa fa-twitter"></i> @bcnjs / #wenode</p>
 </div>
-
-<section class="intro row">
-  <div class="col-xs-12 col-sm-4">
-    <p>Organised by BarcelonaJS for the community. Attendance is free, but tickets are required and limited.</p>
-  </div>
-  <div class="col-xs-12 col-sm-4">
-    <p>Organitzat des de BarcelonaJS per a la comunitat. L'entrada és lliure però cal registrar-se per qüestions d'aforament i logística.</p>
-  </div>
-  <div class="col-xs-12 col-sm-4">
-    <p>Organizado desde BarcelonaJS para la comunidad. La entrada es gratuita sin embargo tener un ticket será obligatorio para poder asistir.</p>
-  </div>
-</section>
 
 <!--
 <section class="agenda row">
@@ -53,25 +45,29 @@
 </section>
 
 <div class="row spacer">
-  <h3 class="text-center register"><a class="btn btn-default btn-lg" href="http://tickets.barcelonajs.org">Register interest</a></h3>
+  <h3 class="text-center register"><a class="btn btn-default btn-lg" href="http://tickets.barcelonajs.org">Buy your ticket</a></h3>
   <p class="text-right"><i class="fa fa-twitter"></i> @bcnjs / #wenode</p>
 </div>
-
+-->
 <section class="speakers row">
   <div class="col-xs-12">
     <h3 class="col-sm-offset-1">Speakers</h3>
   </div>
   {{#each speakers}}
-  <div class="speaker equal col-xs-12 col-sm-12 col-md-4">
-    <div class="speaker-portrait col-xs-12- col-sm-12 col-md-4" style="background-image: url({{portrait}});"></div>
-    <div class="speaker-profile">
-      <span class="speaker-name">{{name}}</span>
-      <a href="http://twitter.com/{{twitter}}"><i class="fa fa-twitter"></i> {{twitter}}</a>
+  <div class="member col-xs-12 col-sm-6 col-md-3">
+    <a href="/speaker/{{slug}}.html">
+      <div class="hexagon member-portrait" style="background-image: url({{portrait}});">
+        <div class="hexTop"></div>
+        <div class="hexBottom"></div>
+      </div>
+    </a>
+    <div class="member-profile text-center">
+      <span class="member-name">{{name}}</span><br />
+      <i class="fa fa-twitter"></i> <a href="http://twitter.com/{{twitter}}">{{twitter}}</a>
     </div>
   </div>
   {{/each}}
 </section>
--->
 
 <section class="speaker row">
   <div class="col-xs-12">
@@ -84,7 +80,7 @@
 </section>
 
 <div class="row spacer">
-  <h3 class="text-center register"><a class="btn btn-default btn-lg" href="http://tickets.barcelonajs.org">Register interest</a></h3>
+  <h3 class="text-center register"><a class="btn btn-default btn-lg" href="http://tickets.barcelonajs.org">Buy your ticket</a></h3>
   <p class="text-right"><i class="fa fa-twitter"></i> @bcnjs / #wenode</p>
 </div>
 
@@ -111,7 +107,7 @@
     </div>
     <div class="member-profile text-center">
       <span class="member-name">{{name}}</span><br />
-      <i class="fa fa-twitter"></i> {{twitter}}
+      <i class="fa fa-twitter"></i> <a href="http://twitter.com/{{twitter}}">{{twitter}}</a>
     </div>
   </div>
   {{/each}}

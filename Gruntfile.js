@@ -7,15 +7,13 @@
  * Licensed under the MIT license.
  */
 
-'use strict';
-
 // # Globbing
 // for performance reasons we're only matching one level down:
 // '<%= config.src %>/templates/pages/{,*/}*.hbs'
 // use this if you want to match all subfolders:
 // '<%= config.src %>/templates/pages/**/*.hbs'
 
-module.exports = function(grunt) {
+module.exports = function (grunt) {
 
   require('time-grunt')(grunt);
 
@@ -37,10 +35,10 @@ module.exports = function(grunt) {
           livereload: '<%= connect.options.livereload %>'
         },
         files: [
-          '<%= config.dist %>/{,*/}*.html',
-          '<%= config.dist %>/assets/{,*/}*.css',
-          '<%= config.dist %>/assets/{,*/}*.js',
-          '<%= config.dist %>/assets/{,*/}*.{png,jpg,jpeg,gif,webp,svg}'
+          '<%= config.src %>/{,*/}*.html',
+          '<%= config.src %>/assets/{,*/}*.css',
+          '<%= config.src %>/assets/{,*/}*.js',
+          '<%= config.src %>/assets/{,*/}*.{png,jpg,jpeg,gif,webp,svg}'
         ]
       }
     },
@@ -63,24 +61,57 @@ module.exports = function(grunt) {
     },
 
     assemble: {
+      options: {
+        flatten: true,
+        assets: '<%= config.dist %>/assets',
+        layoutdir: '<%= config.src %>/templates/layouts',
+        layoutext: '.hbs',
+        layout: 'default',
+        data: '<%= config.src %>/data/*.{json,yml}',
+        partials: '<%= config.src %>/templates/partials/*.hbs',
+        plugins: ['assemble-contrib-permalinks', 'assemble-contrib-sitemap'],
+      },
       pages: {
-        options: {
-          flatten: true,
-          assets: '<%= config.dist %>/assets',
-          layout: '<%= config.src %>/templates/layouts/default.hbs',
-          data: '<%= config.src %>/data/*.{json,yml}',
-          partials: '<%= config.src %>/templates/partials/*.hbs',
-          plugins: ['assemble-contrib-permalinks','assemble-contrib-sitemap'],
-        },
         files: {
           '<%= config.dist %>/': ['<%= config.src %>/templates/pages/*.hbs']
         }
+      },
+      speakers: {
+        files: {
+          '<%= config.dist %>/speaker/': ['<%= config.src %>/speakers/*.md']
+        }
+      },
+    },
+
+    copy: {
+      assets: {
+        expand: true,
+        cwd: '<%= config.src %>/assets/',
+        src: ['**'],
+        dest: '<%= config.dist %>/assets/',
+      },
+      misc: {
+        expand: true,
+        dot: true,
+        cwd: '<%= config.src %>',
+        dest: '<%= config.dist %>',
+        src: [
+          '*.{ico,png,txt}',
+          'CNAME'
+        ]
       }
+    },
+
+    'gh-pages': {
+      options: {
+        base: 'dist'
+      },
+      src: ['**']
     },
 
     // Before generating any new files,
     // remove any previously-created files.
-    clean: ['<%= config.dist %>/**/*.{html,xml}']
+    clean: ['<%= config.dist %>/**/*.*']
 
   });
 
@@ -88,6 +119,10 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-connect');
   grunt.loadNpmTasks('grunt-contrib-watch');
+  grunt.loadNpmTasks('grunt-contrib-htmlmin');
+  grunt.loadNpmTasks('grunt-contrib-cssmin');
+  grunt.loadNpmTasks('grunt-contrib-copy');
+  grunt.loadNpmTasks('grunt-gh-pages');
 
   grunt.registerTask('serve', [
     'clean',
@@ -98,8 +133,11 @@ module.exports = function(grunt) {
 
   grunt.registerTask('build', [
     'clean',
-    'assemble'
+    'assemble',
+    'copy'
   ]);
+
+  grunt.registerTask('publish', ['gh-pages']);
 
   grunt.registerTask('default', [
     'build'

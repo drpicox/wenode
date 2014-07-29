@@ -1,18 +1,18 @@
 {
-  "name": "Don't Node",
-  "description": "Don't Node by BarcelonaJS.",
+  "name": "WeNode",
+  "description": "WeNode by BarcelonaJS.",
   "version": "0.1.0",
-  "homepage": "https://github.com/barcelona-js/dontnode",
+  "homepage": "https://github.com/barcelona-js/wenode",
   "author": {
     "name": "Patrick Heneise",
     "url": "http://github.com/barcelona-js/"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/barcelona-js/dontnode.git"
+    "url": "git://github.com/barcelona-js/wenode.git"
   },
   "bugs": {
-    "url": "https://github.com/barcelona-js/dontnode/issues"
+    "url": "https://github.com/barcelona-js/wenode/issues"
   },
   "engines": {
     "node": ">=0.8"
@@ -22,27 +22,28 @@
   },
   "devDependencies": {
     "assemble": "~0.4.33",
+    "assemble-contrib-permalinks": "*",
+    "assemble-contrib-sitemap": "*",
     "grunt": "~0.4.2",
     "grunt-contrib-clean": "~0.5.0",
     "grunt-contrib-connect": "~0.6.0",
+    "grunt-contrib-copy": "^0.5.0",
+    "grunt-contrib-cssmin": "^0.10.0",
+    "grunt-contrib-htmlmin": "^0.3.0",
     "grunt-contrib-watch": "~0.5.3",
+    "grunt-gh-pages": "^0.9.1",
     "load-grunt-tasks": "~0.2.1",
-    "time-grunt": "~0.2.7",
-    "assemble-contrib-permalinks": "*",
-    "assemble-contrib-sitemap": "*"
+    "time-grunt": "~0.2.7"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/barcelona-js/dontnode/blob/master/LICENSE-MIT"
+      "url": "https://github.com/barcelona-js/wenode/blob/master/LICENSE-MIT"
     }
   ],
   "keywords": [
-    "assemble",
-    "templates",
-    "handlebars",
-    "site generator",
-    "site builder",
-    "grunt"
+    "nodejs",
+    "conference",
+    "barcelona"
   ]
 }
