@@ -12,6 +12,9 @@
 // '<%= config.src %>/templates/pages/{,*/}*.hbs'
 // use this if you want to match all subfolders:
 // '<%= config.src %>/templates/pages/**/*.hbs'
+// # Watching and serve
+// It will only serve dist/ folder 
+// in order to make sure that dist/ has always consistent state.
 
 module.exports = function (grunt) {
 
@@ -30,15 +33,20 @@ module.exports = function (grunt) {
         files: ['<%= config.src %>/{content,data,templates}/{,*/}*.{md,hbs,yml,json}'],
         tasks: ['assemble']
       },
+      assets: {
+        files: ['<%= config.src %>/assets/**'],
+        tasks: ['copy:assets'],
+      },
+      misc: {
+        files: ['<%= config.src %>/*.{ico,png,txt}','<%= config.src %>/CNAME'],
+        tasks: ['copy:misc'],
+      },
       livereload: {
         options: {
           livereload: '<%= connect.options.livereload %>'
         },
         files: [
-          '<%= config.src %>/{,*/}*.html',
-          '<%= config.src %>/assets/{,*/}*.css',
-          '<%= config.src %>/assets/{,*/}*.js',
-          '<%= config.src %>/assets/{,*/}*.{png,jpg,jpeg,gif,webp,svg}'
+          '<%= config.dist %>/**',
         ]
       }
     },
@@ -54,7 +62,7 @@ module.exports = function (grunt) {
         options: {
           open: true,
           base: [
-            '<%= config.dist %>'
+            '<%= config.dist %>',
           ]
         }
       }
@@ -126,6 +134,7 @@ module.exports = function (grunt) {
 
   grunt.registerTask('serve', [
     'clean',
+    'copy',
     'assemble',
     'connect:livereload',
     'watch'
