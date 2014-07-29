@@ -138,6 +138,10 @@ h3 {
   color: black;
 }
 
+.member {
+  text-align: center;
+}
+
 .member-name a {
   color: black;
 }
@@ -158,9 +162,12 @@ h3 {
   left: 40px;
   height: 86.60px;
   margin: 43.30px 0;
+  margin-left: -75px;
   background-color: #88BF43;
   background-size: auto 173.2051px;
   background-position: center;
+  display: inline-block;
+  text-align: left;
 }
 
 .hexTop,
