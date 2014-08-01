@@ -3,7 +3,8 @@
     <h1 class="title">Don't node?<br />We node!</h1>
     <h2 class="subtitle">by BarcelonaJS <a href="http://barcelonajs.org"><img class="header-logo" src="/assets/images/logo.png" alt="logo" /></a></h2>
     <div class="mostimportant">
-      <span class="when">4. October 2014</span><br />
+      <span class="when">4. October 2014</span>
+      <br />
       <span class="where">Mobile World Centre, C/ de Fontanella, 2, Barcelona</span>
     </div>
     <div class="clearfix intro">
@@ -13,7 +14,7 @@
         <p>Organised by BarcelonaJS for the community.</p>
       </div>
       <div class="col-xs-12 col-sm-4">
-        <p>WeNode – una conferencia de un día sin animo de lucro sobre tecnologías  node.js, server-side y embedded Javascript.</p>
+        <p>WeNode – una conferencia de un día sin animo de lucro sobre tecnologías node.js, server-side y embedded Javascript.</p>
         <p>Un día completo lleno de charlas y talleres; todo acerca tu lenguaje favorito de programación: Javascript. Principiantes y expertos, hackers y ninjas, estáis todos invitados a uniros a nosotros en un día de node.</p>
         <p>Organitzat des de BarcelonaJS per a la comunitat.</p>
       </div>
@@ -31,24 +32,6 @@
   <p class="text-right"><i class="fa fa-twitter"></i> @bcnjs / #wenode</p>
 </div>
 
-<!--
-<section class="agenda row">
-  <div class="col-xs-12">
-    <h3 class="col-sm-offset-1">Agenda</h3>
-    <dl class="agenda-list dl-horizontal">
-      {{#each agenda}}
-      <dt>{{time}}</dt>
-      <dd>{{{title}}} <a href="{{video}}"><i class="fa fa-lg fa-vimeo-square"></i></a></dd>
-      {{/each}}
-    </dl>
-  </div>
-</section>
-
-<div class="row spacer">
-  <h3 class="text-center register"><a class="btn btn-default btn-lg" href="http://tickets.barcelonajs.org">Buy your ticket</a></h3>
-  <p class="text-right"><i class="fa fa-twitter"></i> @bcnjs / #wenode</p>
-</div>
--->
 <section class="speakers row">
   <div class="col-xs-12">
     <h3 class="col-sm-offset-1">Speakers</h3>
@@ -62,21 +45,12 @@
       </div>
     </a>
     <div class="member-profile text-center">
-      <span class="member-name">{{name}}</span><br />
-      <i class="fa fa-twitter"></i> <a href="http://twitter.com/{{twitter}}">{{twitter}}</a>
+      <span class="member-name">{{name}}</span>
+      <br />
+      <i class="fa fa-twitter"></i>  <a href="http://twitter.com/{{twitter}}">{{twitter}}</a>
     </div>
   </div>
   {{/each}}
-</section>
-
-<section class="speaker row">
-  <div class="col-xs-12">
-    <h3 class="col-sm-offset-1">Call for Papers</h3>
-  </div>
-  <div class="col-xs-12">
-    <div class="typeform-widget" data-url="https://barcelonajs.typeform.com/to/ZkemfK" data-text="Call for Papers" style="width:100%;height:300px;"></div>
-    <script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'widget.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
-  </div>
 </section>
 
 <div class="row spacer">
@@ -84,12 +58,56 @@
   <p class="text-right"><i class="fa fa-twitter"></i> @bcnjs / #wenode</p>
 </div>
 
+<!--
+<section class="agenda row">
+  <div class="col-xs-12">
+    <h3 class="col-sm-offset-1">Agenda</h3>
+    <div class="row">
+      <table class="table table-bordered text-center">
+        <thead>
+          <tr>
+            <th></th>
+            <th class="text-center">Track 1</th>
+            <th class="text-center">Track 2</th>
+          </tr>
+        </thead>
+        <tbody>
+          {{#each agenda}}
+          <tr {{#if class}}class="{{class}}" {{/if}}>
+            <td>{{time}}</td>
+
+            <td {{#if alltracks}}colspan="2" {{/if}}>
+              {{{title}}} {{#if video}} {{video}} {{/if}}
+            </td>
+
+            {{#if workshop}}
+            <td {{#if workshop.timeslots}}rowspan="{{workshop.timeslots}}" {{/if}}>
+              {{{workshop.title}}} {{#if workshop.video}} {{workshop.video}} {{/if}}
+            </td>
+            {{/if}}{{! workshop}}
+
+          </tr>
+          {{/each}}{{! agenda}}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<div class="row spacer">
+  <h3 class="text-center register"><a class="btn btn-default btn-lg" href="http://tickets.barcelonajs.org">Buy your ticket</a></h3>
+  <p class="text-right"><i class="fa fa-twitter"></i> @bcnjs / #wenode</p>
+</div>
+-->
+
 <section class="supporters row">
   <div class="col-xs-12">
     <h3 class="col-sm-offset-1">Supporters</h3>
     {{#each supporters}}
     <div class="supporter col-xs-12 col-sm-4 text-center">
-      <a href="{{url}}"><img class="supporter-logo" src="{{logo}}" alt={{name}} /></a>
+      <a href="{{url}}">
+        <img class="supporter-logo" src="{{logo}}" alt={{name}} />
+      </a>
     </div>
     {{/each}}
   </div>
@@ -106,8 +124,9 @@
       <div class="hexBottom"></div>
     </div>
     <div class="member-profile text-center">
-      <span class="member-name">{{name}}</span><br />
-      <i class="fa fa-twitter"></i> <a href="http://twitter.com/{{twitter}}">{{twitter}}</a>
+      <span class="member-name">{{name}}</span>
+      <br />
+      <i class="fa fa-twitter"></i>  <a href="http://twitter.com/{{twitter}}">{{twitter}}</a>
     </div>
   </div>
   {{/each}}

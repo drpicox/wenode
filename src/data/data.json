@@ -10,7 +10,7 @@
       "name": "Krasimir Tsonev",
       "slug": "krasimir-tsonev",
       "twitter": "KrasimirTsonev",
-      "portrait": "http://work.krasimirtsonev.com/avatar/pic.jpg"
+      "portrait": "/assets/images/krasimir-tsonev.jpg"
     },
     {
       "name": "Javier Abadía",
@@ -60,17 +60,17 @@
     },
     {
       "time": "10.00",
-      "title": "Keynote <small>apply now</small>",
+      "title": "Keynote",
       "alltracks": true
     },
     {
       "time": "10.35",
-      "title": "Intermediate Talk <small>apply now</small>",
+      "title": "",
       "alltracks": true
     },
     {
       "time": "11.10",
-      "title": "Intermediate Talk <small>apply now</small>",
+      "title": "",
       "alltracks": true
     },
     {
@@ -81,49 +81,49 @@
     },
     {
       "time": "12.00",
-      "title": "Expert Talk <small>apply now</small>",
+      "title": "",
       "workshop": {
-        "title": "Begginner Workshop",
+        "title": "Workshop",
         "timeslots": 4
       }
     },
     {
       "time": "12.35",
-      "title": "Expert Talk <small>apply now</small>"
+      "title": ""
     },
     {
       "time": "13.10",
-      "title": "Expert Talk <small>apply now</small>"
+      "title": ""
     },
     {
       "time": "13.45",
-      "title": "Expert Talk <small>apply now</small>"
+      "title": ""
     },
     {
       "time": "11.40",
-      "title": "<emph>Launch break</emph>",
+      "title": "<emph>Lunch break</emph>",
       "class": "active",
       "alltracks": true
     },
     {
       "time": "15.00",
-      "title": "Begginner Talk <small>apply now</small>",
+      "title": "",
       "workshop": {
-        "title": "Expert Workshop",
+        "title": "",
         "timeslots": 4
       }
     },
     {
       "time": "15.35",
-      "title": "Begginner Talk <small>apply now</small>"
+      "title": ""
     },
     {
       "time": "16.10",
-      "title": "Begginner Talk <small>apply now</small>"
+      "title": ""
     },
     {
       "time": "16.45",
-      "title": "Begginner Talk <small>apply now</small>"
+      "title": ""
     },
     {
       "time": "17.15",
@@ -133,24 +133,24 @@
     },
     {
       "time": "17.45",
-      "title": "Intermediate Talk <small>apply now</small>",
+      "title": "",
       "alltracks": true
     },
     {
       "time": "18.20",
-      "title": "Intermediate Talk <small>apply now</small>",
+      "title": "",
       "alltracks": true
     },
     {
       "time": "18.55",
-      "title": "Keynote <small>apply now</small>",
+      "title": "Keynote",
       "alltracks": true
     },
     {
-      "time": "19.30",
+      "time": "20.00",
       "title": "<emph>Party</emph>",
       "class": "active",
       "alltracks": true
-    }   
+    }
   ]
 }

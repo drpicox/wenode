@@ -1,7 +1,7 @@
 ---
 layout: speakers
 title: Krasimir Tsonev
-portrait: http://work.krasimirtsonev.com/avatar/pic.jpg
+portrait: /assets/images/krasimir-tsonev.jpg
 twitter: KrasimirTsonev
 ---
 
