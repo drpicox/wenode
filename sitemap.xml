@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://github.com/barcelona-js/wenode/dist/agenda.html</loc>
+    <lastmod>2014-08-03T10:53:11.681Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://github.com/barcelona-js/wenode/dist/index.html</loc>
-    <lastmod>2014-07-29T10:28:44.755Z</lastmod>
+    <lastmod>2014-08-03T10:53:11.683Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://github.com/barcelona-js/wenode/dist/sponsors.html</loc>
-    <lastmod>2014-07-29T10:28:44.756Z</lastmod>
+    <lastmod>2014-08-03T10:53:11.683Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
