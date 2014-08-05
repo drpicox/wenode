@@ -58,17 +58,16 @@
   <p class="text-right"><i class="fa fa-twitter"></i> @bcnjs / #wenode</p>
 </div>
 
-<!--
 <section class="agenda row">
   <div class="col-xs-12">
     <h3 class="col-sm-offset-1">Agenda</h3>
     <div class="row">
-      <table class="table table-bordered text-center">
+      <table class="table table-bordered table-responsive text-center">
         <thead>
           <tr>
-            <th></th>
-            <th class="text-center">Track 1</th>
-            <th class="text-center">Track 2</th>
+            <th class="col-xs-2"></th>
+            <th class="col-xs-5 text-center">Track 1</th>
+            <th class="col-xs-5 text-center">Track 2</th>
           </tr>
         </thead>
         <tbody>
@@ -81,7 +80,7 @@
             </td>
 
             {{#if workshop}}
-            <td {{#if workshop.timeslots}}rowspan="{{workshop.timeslots}}" {{/if}}>
+            <td {{#if workshop.timeslots}}rowspan="{{workshop.timeslots}}" style="vertical-align:middle;" {{/if}}>
               {{{workshop.title}}} {{#if workshop.video}} {{workshop.video}} {{/if}}
             </td>
             {{/if}}{{! workshop}}
@@ -98,7 +97,6 @@
   <h3 class="text-center register"><a class="btn btn-default btn-lg" href="http://tickets.barcelonajs.org">Buy your ticket</a></h3>
   <p class="text-right"><i class="fa fa-twitter"></i> @bcnjs / #wenode</p>
 </div>
--->
 
 <section class="supporters row">
   <div class="col-xs-12">

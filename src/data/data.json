@@ -29,6 +29,12 @@
       "slug": "gergely-nemeth",
       "twitter": "nthgergo",
       "portrait": "/assets/images/gergely-nemeth.jpg"
+    },
+    {
+      "name": "Valeri Karpov",
+      "slug": "valeri-karpov",
+      "twitter": "code_barbarian",
+      "portrait": "/assets/images/valeri-karpov.jpg"
     }
   ],
   "supporters": [
@@ -46,6 +52,11 @@
       "name": "O'Reilly",
       "logo": "/assets/images/logo-sponsor-oreilly.png",
       "url": "http://www.oreilly.com"
+    },
+    {
+      "name": "MongoDB",
+      "logo": "/assets/images/logo-sponsor-mongodb.png",
+      "url": "http://www.mongodb.com"
     }
   ],
   "team": [
@@ -70,18 +81,24 @@
       "alltracks": true
     },
     {
+      "time": "9.55",
+      "title": "<strong>Welcome</strong>",
+      "class": "info",
+      "alltracks": true
+    },
+    {
       "time": "10.00",
-      "title": "Keynote",
+      "title": "TBA",
       "alltracks": true
     },
     {
       "time": "10.35",
-      "title": "",
+      "title": "TBA",
       "alltracks": true
     },
     {
       "time": "11.10",
-      "title": "",
+      "title": "TBA",
       "alltracks": true
     },
     {
@@ -92,23 +109,23 @@
     },
     {
       "time": "12.00",
-      "title": "",
+      "title": "TBA",
       "workshop": {
-        "title": "Workshop",
+        "title": "Building a MEAN Stack Single Page App in 2 Hours. <small>Valeri Karpov</small>",
         "timeslots": 4
       }
     },
     {
       "time": "12.35",
-      "title": ""
+      "title": "To the MEAN stack and beyond! <small>Martin Naumann</small>"
     },
     {
       "time": "13.10",
-      "title": ""
+      "title": "Scalability Lessons: Beyond 50k requests per second. <small>Alex Fernández</small>"
     },
     {
       "time": "13.45",
-      "title": ""
+      "title": "TBA"
     },
     {
       "time": "11.40",
@@ -118,23 +135,23 @@
     },
     {
       "time": "15.00",
-      "title": "",
+      "title": "TBA",
       "workshop": {
-        "title": "",
+        "title": "Experts Workshop, TBA",
         "timeslots": 4
       }
     },
     {
       "time": "15.35",
-      "title": ""
+      "title": "From PHP to organising Nodebp. <small>Gergely Nemeth</small>"
     },
     {
       "time": "16.10",
-      "title": ""
+      "title": "TBA"
     },
     {
       "time": "16.45",
-      "title": ""
+      "title": "TBA"
     },
     {
       "time": "17.15",
@@ -144,23 +161,23 @@
     },
     {
       "time": "17.45",
-      "title": "",
+      "title": "AbsurdJS - Hacking the Front-End. <small>Krasimir Tsonev</small>",
       "alltracks": true
     },
     {
       "time": "18.20",
-      "title": "",
+      "title": "Controlling RealWorld&trade; elements with Node.js and Arduino. <small>Javier Abadía</small>",
       "alltracks": true
     },
     {
       "time": "18.55",
-      "title": "Keynote",
+      "title": "TBA",
       "alltracks": true
     },
     {
-      "time": "20.00",
-      "title": "<emph>Party</emph>",
-      "class": "active",
+      "time": "19.25",
+      "title": "<emph>Farewell & Drinks</emph>",
+      "class": "info",
       "alltracks": true
     }
   ]
