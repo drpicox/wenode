@@ -2,19 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://github.com/barcelona-js/wenode/dist/agenda.html</loc>
-    <lastmod>2014-08-03T10:53:11.681Z</lastmod>
+    <lastmod>2014-08-05T14:52:39.073Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://github.com/barcelona-js/wenode/dist/index.html</loc>
-    <lastmod>2014-08-03T10:53:11.683Z</lastmod>
+    <lastmod>2014-08-05T14:52:39.073Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://github.com/barcelona-js/wenode/dist/sponsors.html</loc>
-    <lastmod>2014-08-03T10:53:11.683Z</lastmod>
+    <lastmod>2014-08-05T14:52:39.074Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
