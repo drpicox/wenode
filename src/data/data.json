@@ -23,18 +23,29 @@
       "slug": "martin-neumann",
       "twitter": "g33konaut",
       "portrait": "/assets/images/martin-neumann.jpg"
+    },
+    {
+      "name": "Gergely Nemeth",
+      "slug": "gergely-nemeth",
+      "twitter": "nthgergo",
+      "portrait": "/assets/images/gergely-nemeth.jpg"
     }
   ],
   "supporters": [
     {
       "name": "Mobile World Capital",
-      "logo": "/assets/images/mwc2x.png",
+      "logo": "/assets/images/logo-sponsor-mwc2x.png",
       "url": "http://mobileworldcapital.com"
     },
     {
-      "name": "Barcelona.IO",
-      "logo": "/assets/images/barcelonaio.jpg",
-      "url": "http://www.barcelona.io"
+      "name": "Rising Stack",
+      "logo": "/assets/images/logo-sponsor-risingstack.jpg",
+      "url": "http://www.risingstack.com"
+    },
+    {
+      "name": "O'Reilly",
+      "logo": "/assets/images/logo-sponsor-oreilly.png",
+      "url": "http://www.oreilly.com"
     }
   ],
   "team": [
