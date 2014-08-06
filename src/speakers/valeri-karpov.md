@@ -12,6 +12,6 @@ Valeri Karpov has been developing web applications since putting up his first Po
 Valeri is best known for coining the term 'MEAN stack', a Javascript-only combination of web development technologies. His writings on the MEAN stack are based on his work building out full-stack web applications for The Ascot Project and Bookalokal.com using these technologies. He currently works at MongoDB, where he's helping build out a massively parallel continuous integration platform. He blogs about nutrition, personal philosophy, web development, and other loosely related topics at www.thecodebarbarian.com.
 
 
-## Workshop: Building a MEAN Stack Single Page App in 2 Hours
+#### Workshop: Building a MEAN Stack Single Page App in 2 Hours
 
 Learn how to quickly build and test a single page app using a JavaScript-only stack.
