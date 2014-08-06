@@ -22,11 +22,15 @@ a:hover {
   text-align: center;
 }
 
+.topmargin {
+  margin-top: 50px;
+}
+
 #speakers-intro {
   margin: 0 auto;
   width: 100%;
   color: #ececec;
-  font-size: 14px;
+  font-size: 18px;
   position: relative;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.8);
   padding: 15px 0;
@@ -70,6 +74,16 @@ h1 {
 h2 {
   font-family: "bello-pro",sans-serif;
   color:#88BF43;
+}
+
+.title {
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  background: url(/assets/images/wenode_logo.png) no-repeat;
+}
+.title span {
+  display: none;
 }
 
 .subtitle {
