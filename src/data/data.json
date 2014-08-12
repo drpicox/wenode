@@ -7,10 +7,10 @@
       "portrait": "/assets/images/alex-fernandez.jpg"
     },
     {
-      "name": "Krasimir Tsonev",
-      "slug": "krasimir-tsonev",
-      "twitter": "KrasimirTsonev",
-      "portrait": "/assets/images/krasimir-tsonev.jpg"
+      "name": "Gergely Nemeth",
+      "slug": "gergely-nemeth",
+      "twitter": "nthgergo",
+      "portrait": "/assets/images/gergely-nemeth.jpg"
     },
     {
       "name": "Javier Abadía",
@@ -19,16 +19,22 @@
       "portrait": "/assets/images/javier-abadia.jpg"
     },
     {
+      "name": "Krasimir Tsonev",
+      "slug": "krasimir-tsonev",
+      "twitter": "KrasimirTsonev",
+      "portrait": "/assets/images/krasimir-tsonev.jpg"
+    },
+    {
       "name": "Martin Neumann",
       "slug": "martin-neumann",
       "twitter": "g33konaut",
       "portrait": "/assets/images/martin-neumann.jpg"
     },
     {
-      "name": "Gergely Nemeth",
-      "slug": "gergely-nemeth",
-      "twitter": "nthgergo",
-      "portrait": "/assets/images/gergely-nemeth.jpg"
+      "name": "Tim Perry",
+      "slug": "tim-perry",
+      "twitter": "pimterry",
+      "portrait": "/assets/images/tim-perry.jpg"
     },
     {
       "name": "Valeri Karpov",
