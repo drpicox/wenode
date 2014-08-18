@@ -63,6 +63,11 @@
       "name": "MongoDB",
       "logo": "/assets/images/logo-sponsor-mongodb.png",
       "url": "http://www.mongodb.com"
+    },
+    {
+      "name": "mediasmart",
+      "logo": "/assets/images/logo-sponsor-mediasmart.png",
+      "url": "http://mediasmart.mobi"
     }
   ],
   "team": [
@@ -104,7 +109,7 @@
     },
     {
       "time": "11.10",
-      "title": "TBA",
+      "title": "Microservices & Web Components Are The Same Thing. <small>Tim Perry</small>",
       "alltracks": true
     },
     {
