@@ -2,43 +2,49 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://github.com/barcelona-js/wenode/dist/speaker/alex-fernandez.html</loc>
-    <lastmod>2014-08-18T08:48:03.746Z</lastmod>
+    <lastmod>2014-08-19T10:06:32.891Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://github.com/barcelona-js/wenode/dist/speaker/christoph-neuroth.html</loc>
+    <lastmod>2014-08-19T10:06:32.891Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://github.com/barcelona-js/wenode/dist/speaker/gergely-nemeth.html</loc>
-    <lastmod>2014-08-18T08:48:03.746Z</lastmod>
+    <lastmod>2014-08-19T10:06:32.891Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://github.com/barcelona-js/wenode/dist/speaker/javier-abadia.html</loc>
-    <lastmod>2014-08-18T08:48:03.746Z</lastmod>
+    <lastmod>2014-08-19T10:06:32.891Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://github.com/barcelona-js/wenode/dist/speaker/krasimir-tsonev.html</loc>
-    <lastmod>2014-08-18T08:48:03.746Z</lastmod>
+    <lastmod>2014-08-19T10:06:32.891Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://github.com/barcelona-js/wenode/dist/speaker/martin-neumann.html</loc>
-    <lastmod>2014-08-18T08:48:03.746Z</lastmod>
+    <lastmod>2014-08-19T10:06:32.891Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://github.com/barcelona-js/wenode/dist/speaker/tim-perry.html</loc>
-    <lastmod>2014-08-18T08:48:03.746Z</lastmod>
+    <lastmod>2014-08-19T10:06:32.891Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://github.com/barcelona-js/wenode/dist/speaker/valeri-karpov.html</loc>
-    <lastmod>2014-08-18T08:48:03.746Z</lastmod>
+    <lastmod>2014-08-19T10:06:32.891Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
