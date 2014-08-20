@@ -7,6 +7,12 @@
       "portrait": "/assets/images/alex-fernandez.jpg"
     },
     {
+      "name": "Carlos Hernandez",
+      "slug": "carlos-hernandez",
+      "twitter": "k4rliky",
+      "portrait": "/assets/images/carlos-hernandez.jpg"
+    },
+    {
       "name": "Christoph Neuroth",
       "slug": "christoph-neuroth",
       "twitter": "c089",
@@ -132,7 +138,7 @@
     },
     {
       "time": "12.00",
-      "title": "TBA",
+      "title": "The legend of HTML5: A link between worlds <small>Carlos Hernandez</small>",
       "workshop": {
         "title": "Building a MEAN Stack Single Page App in 2 Hours. <small>Valeri Karpov</small>",
         "timeslots": 4
