@@ -13,7 +13,7 @@
 // use this if you want to match all subfolders:
 // '<%= config.src %>/templates/pages/**/*.hbs'
 // # Watching and serve
-// It will only serve dist/ folder 
+// It will only serve dist/ folder
 // in order to make sure that dist/ has always consistent state.
 
 module.exports = function (grunt) {
@@ -30,7 +30,7 @@ module.exports = function (grunt) {
 
     watch: {
       assemble: {
-        files: ['<%= config.src %>/{content,data,templates}/{,*/}*.{md,hbs,yml,json}'],
+        files: ['<%= config.src %>/{content,data,templates}/{,*/}*.{md,hbs,json}'],
         tasks: ['assemble']
       },
       assets: {
@@ -75,7 +75,7 @@ module.exports = function (grunt) {
         layoutdir: '<%= config.src %>/templates/layouts',
         layoutext: '.hbs',
         layout: 'default',
-        data: '<%= config.src %>/data/*.{json,yml}',
+        data: '<%= config.src %>/data/*.json',
         partials: '<%= config.src %>/templates/partials/*.hbs',
         plugins: ['assemble-contrib-permalinks', 'assemble-contrib-sitemap'],
       },

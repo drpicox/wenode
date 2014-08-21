@@ -1,3 +1,1 @@
-# Don't Node
-
-> Don't Node by BarcelonaJS.
+# WeNode by BarcelonaJS.
