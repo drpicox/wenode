@@ -108,6 +108,11 @@
       "name": "mediasmart",
       "logo": "/assets/images/logo-sponsor-arangodb.png",
       "url": "https://www.arangodb.org"
+    },
+    {
+      "name": "barcinno",
+      "logo": "/assets/images/logo-sponsor-barcinno.jpg",
+      "url": "http://www.barcinno.com"
     }
   ],
   "team": [
