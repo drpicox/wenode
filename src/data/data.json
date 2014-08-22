@@ -49,6 +49,12 @@
       "portrait": "/assets/images/martin-neumann.jpg"
     },
     {
+      "name": "Michael Hackstein",
+      "slug": "michael-hackstein",
+      "twitter": "mchacki",
+      "portrait": "/assets/images/michael-hackstein.jpg"
+    },
+    {
       "name": "Tim Perry",
       "slug": "tim-perry",
       "twitter": "pimterry",
@@ -91,6 +97,11 @@
       "name": "mediasmart",
       "logo": "/assets/images/logo-sponsor-mediasmart.jpg",
       "url": "http://mediasmart.mobi"
+    },
+    {
+      "name": "mediasmart",
+      "logo": "/assets/images/logo-sponsor-arangodb.png",
+      "url": "https://www.arangodb.org"
     }
   ],
   "team": [
@@ -181,7 +192,7 @@
     },
     {
       "time": "16.10",
-      "title": "TBA"
+      "title": "NodeJS in the NoSQL World. <small>Michael Hackstein</small>"
     },
     {
       "time": "16.45",
