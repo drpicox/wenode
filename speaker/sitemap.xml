@@ -1,62 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://github.com/barcelona-js/wenode/dist/speaker/alex-fernandez.html</loc>
-    <lastmod>2014-08-21T09:23:28.297Z</lastmod>
+    <loc>https://github.com/barcelona-js/wenode/dist/speaker/javier-abadia.html</loc>
+    <lastmod>2014-08-22T08:17:16.893Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://github.com/barcelona-js/wenode/dist/speaker/carlos-hernandez.html</loc>
-    <lastmod>2014-08-21T09:23:28.297Z</lastmod>
+    <loc>https://github.com/barcelona-js/wenode/dist/speaker/alex-fernandez.html</loc>
+    <lastmod>2014-08-22T08:17:16.893Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://github.com/barcelona-js/wenode/dist/speaker/christoph-neuroth.html</loc>
-    <lastmod>2014-08-21T09:23:28.297Z</lastmod>
+    <lastmod>2014-08-22T08:17:16.893Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://github.com/barcelona-js/wenode/dist/speaker/dimitris-kapanidis.html</loc>
+    <lastmod>2014-08-22T08:17:16.893Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://github.com/barcelona-js/wenode/dist/speaker/gergely-nemeth.html</loc>
-    <lastmod>2014-08-21T09:23:28.297Z</lastmod>
+    <lastmod>2014-08-22T08:17:16.894Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://github.com/barcelona-js/wenode/dist/speaker/ingvar-stepanyan.html</loc>
-    <lastmod>2014-08-21T09:23:28.297Z</lastmod>
+    <lastmod>2014-08-22T08:17:16.894Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://github.com/barcelona-js/wenode/dist/speaker/javier-abadia.html</loc>
-    <lastmod>2014-08-21T09:23:28.298Z</lastmod>
+    <loc>https://github.com/barcelona-js/wenode/dist/speaker/carlos-hernandez.html</loc>
+    <lastmod>2014-08-22T08:17:16.894Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://github.com/barcelona-js/wenode/dist/speaker/krasimir-tsonev.html</loc>
-    <lastmod>2014-08-21T09:23:28.298Z</lastmod>
+    <lastmod>2014-08-22T08:17:16.894Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://github.com/barcelona-js/wenode/dist/speaker/martin-neumann.html</loc>
-    <lastmod>2014-08-21T09:23:28.298Z</lastmod>
+    <lastmod>2014-08-22T08:17:16.894Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://github.com/barcelona-js/wenode/dist/speaker/michael-hackstein.html</loc>
+    <lastmod>2014-08-22T08:17:16.894Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://github.com/barcelona-js/wenode/dist/speaker/tim-perry.html</loc>
-    <lastmod>2014-08-21T09:23:28.298Z</lastmod>
+    <lastmod>2014-08-22T08:17:16.894Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://github.com/barcelona-js/wenode/dist/speaker/valeri-karpov.html</loc>
-    <lastmod>2014-08-21T09:23:28.298Z</lastmod>
+    <lastmod>2014-08-22T08:17:16.894Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
