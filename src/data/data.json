@@ -19,6 +19,12 @@
       "portrait": "/assets/images/christoph-neuroth.jpg"
     },
     {
+      "name": "Dimitris Kapanidis",
+      "slug": "dimitris-kapanidis",
+      "twitter": "spiddy",
+      "portrait": "/assets/images/dimitris-kapanidis.jpg"
+    },
+    {
       "name": "Gergely Nemeth",
       "slug": "gergely-nemeth",
       "twitter": "nthgergo",
@@ -196,7 +202,7 @@
     },
     {
       "time": "16.45",
-      "title": "TBA"
+      "title": "Continuous Delivery of Node.js Apps with Docker from Scratch to Production. <small>Dimitris Kapanidis</small>"
     },
     {
       "time": "17.15",
