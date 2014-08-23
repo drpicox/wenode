@@ -1,0 +1,120 @@
+[
+	{
+	  "time": "9:30h",
+	  "title": "Registration",
+	  "class": "agenda-info",
+	  "alltracks": true
+	},
+	{
+	  "time": "9:55h",
+	  "title": "Welcome",
+	  "class": "agenda-info",
+	  "alltracks": true
+	},
+	{
+	  "time": "10:00h",
+	  "title": "TBA",
+	  "alltracks": true
+	},
+	{
+	  "time": "10:35h",
+	  "title": "Property-based testing - another nail in TDD's coffin?",
+	  "speaker": "Christoph Neuroth",
+	  "alltracks": true
+	},
+	{
+	  "time": "11:10h",
+	  "title": "Microservices & Web Components Are The Same Thing",
+	  "speaker": "Tim Perry",
+	  "alltracks": true
+	},
+	{
+	  "time": "11:40h",
+	  "title": "Coffee break",
+	  "class": "agenda-break",
+	  "alltracks": true
+	},
+	{
+	  "time": "12:00h",
+	  "title": "The legend of HTML5: A link between worlds",
+	  "speaker": "Carlos Hernandez",
+	  "workshop": {
+	    "title": "Building a MEAN Stack Single Page App in 2 Hours",
+	    "speaker": "Valeri Karpov",
+	    "timeslots": 4
+	  }
+	},
+	{
+	  "time": "12:35h",
+	  "title": "To the MEAN stack and beyond!",
+	  "speaker": "Martin Naumann"
+	},
+	{
+	  "time": "13:10h",
+	  "title": "Scalability Lessons: Beyond 50k requests per second",
+	  "speaker": "Alex Fernández"
+	},
+	{
+	  "time": "13:45h",
+	  "title": "AST - the only \"true\" tool for code building",
+	  "speaker": "Ingvar Stepanyan"
+	},
+	{
+	  "time": "14:15h",
+	  "title": "Lunch break",
+	  "class": "agenda-break",
+	  "alltracks": true
+	},
+	{
+	  "time": "15:00h",
+	  "title": "TBA",
+	  "workshop": {
+	    "title": "Experts Workshop, TBA",
+	    "timeslots": 4
+	  }
+	},
+	{
+	  "time": "15:35h",
+	  "title": "From PHP to organising Nodebp",
+	  "speaker": "Gergely Nemeth"
+	},
+	{
+	  "time": "16:10h",
+	  "title": "NodeJS in the NoSQL World",
+	  "speaker": "Michael Hackstein"
+	},
+	{
+	  "time": "16:45h",
+	  "title": "Continuous Delivery of Node.js Apps with Docker from Scratch to Production",
+	  "speaker": "Dimitris Kapanidis"
+	},
+	{
+	  "time": "17:15h",
+	  "title": "Coffee break",
+	  "class": "agenda-break",
+	  "alltracks": true
+	},
+	{
+	  "time": "17:45h",
+	  "title": "AbsurdJS - Hacking the Front-End",
+	  "speaker": "Krasimir Tsonev",
+	  "alltracks": true
+	},
+	{
+	  "time": "18:20h",
+	  "title": "Controlling RealWorld&trade; elements with Node.js and Arduino",
+	  "speaker": "Javier Abadía",
+	  "alltracks": true
+	},
+	{
+	  "time": "18:55h",
+	  "title": "TBA",
+	  "alltracks": true
+	},
+	{
+	  "time": "19:25h",
+	  "title": "Farewell & Drinks",
+	  "class": "agenda-info",
+	  "alltracks": true
+	}
+]

@@ -1,0 +1,28 @@
+{
+  "name": "WeNode",
+  "description": "WeNode by BarcelonaJS.",
+  "version": "0.2.0",
+  "homepage": "https://github.com/barcelona-js/wenode",
+  "author": {
+    "name": "Patrick Heneise",
+    "url": "http://github.com/barcelona-js/"
+  },
+  "contributors": [
+    {
+      "name": "David Rodenas",
+      "url": "http://david-rodenas.com"
+    }
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.2.0",
+    "font-awesome": "~4.1.0"
+  }
+}

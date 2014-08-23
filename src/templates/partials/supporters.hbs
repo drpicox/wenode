@@ -1,0 +1,20 @@
+{{! supporters}}
+<section id="supporters">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <h3 class="col-sm-offset-1">Supporters</h3>
+      </div>
+    </div>
+    
+    <div class="row">
+      {{#each supporters}}
+      <div class="supporter col-xs-12 col-sm-4 text-center">
+        <a href="{{url}}?utm_source=wenode&utm_medium=sponsor&utm_campaign=barcelonajs" target="_blank">
+          <img class="supporter-logo img-responsive" src="{{logo}}" alt={{name}} />
+        </a>
+      </div>
+      {{/each}}
+    </div>
+  </div>
+</section>

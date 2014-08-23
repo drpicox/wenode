@@ -1,0 +1,215 @@
+@import "bower_components/bootstrap/less/bootstrap.less";
+@import "bower_components/font-awesome/less/font-awesome.less";
+
+// configure paths
+@icon-font-path: "../../bower_components/bootstrap/fonts/";
+@fa-font-path: "../../bower_components/font-awesome/fonts/";
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Bootstrap customize from: http://getbootstrap.com/customize/
+/////////////////////////////////////////////////////////////////////////////
+
+// Bootstrap: Colors
+/////////////////////////////////////////////////////////////////////////////
+
+@primary-color: #88BF43;
+
+// Bootstrap: Scaffolding
+/////////////////////////////////////////////////////////////////////////////
+
+@link-color: @primary-color;
+@link-hover-color: @link-color;
+a:hover {
+	text-decoration: none;
+}
+
+// Bootstrap: Typography
+/////////////////////////////////////////////////////////////////////////////
+
+@import url(http://fonts.googleapis.com/css?family=Muli:300,400,400italic,300italic);
+
+@font-family-sans-serif: "museo sans", "Muli", sans-serif;
+@headings-font-family: "bello-pro", sans-serif;
+@font-size-h1: 5em;
+@font-size-h3: 2em;
+
+h1 {
+	padding-top: 50px;
+}
+h1,h2 {
+	color: @primary-color;
+}
+h4,h5,h5 {
+	font-family: @font-family-sans-serif;
+}
+
+
+// Bootstrap: Buttons
+/////////////////////////////////////////////////////////////////////////////
+
+@btn-default-bg: #FF7000;
+
+.btn-default:hover {
+  background-color: @btn-default-bg;
+  color: white;
+}
+
+// Bootstrap: Navbar
+/////////////////////////////////////////////////////////////////////////////
+
+@navbar-default-bg: @primary-color;
+@navbar-default-color: mix(@primary-color,white,20%);
+@navbar-default-link-color: @navbar-default-color;
+@navbar-default-link-hover-color: white;
+@navbar-default-link-active-bg: lighten(@primary-color, 20%);
+@navbar-default-link-hover-bg: lighten(@primary-color, 10%);
+@navbar-default-brand-color: black;
+
+
+.navbar .navbar-brand {
+	font-family: @headings-font-family;
+}
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Custom styles
+/////////////////////////////////////////////////////////////////////////////
+
+// Correct navbar-fixed hash anchor and scroll spy
+/////////////////////////////////////////////////////////////////////////////
+
+// sections should be 50px below to avoid navbar
+section[id] {
+	padding-top: 50px;
+	margin-top: -50px;
+}
+// bootstrap requires position relative for scroll spy
+body {
+	position: relative;
+}
+
+@import "hexagon.less";
+@import "agenda.less";
+@import "intro.less";
+@import "navbar.less";
+@import "speakers.less";
+@import "speakers-small.less";
+@import "supporters-small.less";
+
+// Sections
+/////////////////////////////////////////////////////////////////////////////
+
+.topmargin {
+  margin-top: 50px;
+  @media (max-width: @screen-sm-min) { 
+    margin-top: 10px;
+  }
+}
+
+#speakers-intro {
+  margin: 0 auto;
+  width: 100%;
+  color: #ececec;
+  font-size: 18px;
+  position: relative;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.8);
+  padding: 15px 0;
+  background: #1d1d1d;
+  text-align: center;
+}
+
+#speakers-intro .title {
+  padding-top: 0;
+  font-size: 4em;
+}
+
+#speakers-intro .subtitle {
+  font-size: 2em;
+}
+
+#speakers-intro .header-logo {
+  height: 75px;
+}
+
+.speaker-detail {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+
+.subtitle {
+  line-height:50px;
+  height:75px;
+  font-size: 25px;
+}
+
+.header-logo {
+  vertical-align:bottom;
+  height:100px;
+}
+
+.spacer {
+  font-family: "bello-pro",sans-serif;
+  padding-top: 20px;
+  color: #1d1d1d;
+  background-color: @primary-color;
+}
+
+.spacer a {
+  color: #1d1d1d;
+}
+
+.register a {
+  color: #1d1d1d;
+}
+
+.register .btn {
+  font-size: 28px;
+}
+
+.speaker, .supporters, .team, .agenda {
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+
+.agenda small {
+  color: gray;
+}
+
+.supporter {
+  height: 100px;
+}
+
+.supporter-logo {
+  max-width: 250px;
+  vertical-align: middle;
+}
+
+
+
+
+.member {
+  text-align: center;
+  margin-top:35px;
+}
+
+.member-name a {
+  color: black;
+}
+
+.intro-social {
+  color: black !important;
+  font-size: 12px;
+}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : portrait) {
+  .title {
+    width: 300px;
+    height: 300px;
+    background-size: 300px;
+  }
+}
