@@ -9,16 +9,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>WeNode by BarcelonaJS</title>
 
-  <!-- Bootstrap core CSS -->
-  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-
-  <!-- Custom styles for this template -->
-  <link href="assets/css/theme.css" rel="stylesheet">
+  <!-- All Styles -->
+  <link rel="stylesheet" href="assets/styles/wenode.css">
 
   <!-- Webfonts -->
   <script type="text/javascript" src="//use.typekit.net/mqp5ibc.js"></script>
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -32,457 +28,731 @@
   <link rel="shortcut icon" href="favicon.ico">
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
 
-  <div class="container-fluid" role="main">
+  
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">We node!</a>
+    </div>
 
-    <div class="row">
-  <section id="intro" data-speed="4" data-type="background">
-    <h1 class="title"><span>WeNode!</span></h1>
-    <div class="mostimportant">
-      <span class="when">4. October 2014</span>
-      <br />
-      <span class="where">Mobile World Centre, C/ de Fontanella, 2, Barcelona</span>
-      <div class="row">
-        <h3 class="text-center"><a class="btn btn-default btn-lg" href="http://tickets.barcelonajs.org">Buy your ticket</a></h3>
-        <p class="text-right intro-social"><i class="fa fa-twitter"></i> @bcnjs / #wenode</p>
-      </div>
-    </div>
-    <div class="clearfix intro">
-      <div class="col-xs-12 col-sm-4">
-        <p>WeNode – a one-day not-for-profit conference about node.js, server-side and embedded JavaScript technologies.</p>
-        <p>Organised by BarcelonaJS for the community.</p>
-      </div>
-      <div class="col-xs-12 col-sm-4">
-        <p>WeNode – una conferencia de un día sin animo de lucro sobre tecnologías node.js, server-side y embedded Javascript.</p>
-        <p>Organitzat des de BarcelonaJS per a la comunitat.</p>
-      </div>
-      <div class="col-xs-12 col-sm-4">
-        <p>WeNode – una conferencia d'un dia sense anim de lucre sobre node.js, i tecnologies server-side i embedded Javascript.</p>
-        <p>Organizado desde BarcelonaJS para la comunidad.</p>
-      </div>
-    </div>
-  </section>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#intro">Home</a></li>
+        <li><a href="#speakers">Speakers</a></li>
+        <li><a href="#agenda">Agenda</a></li>
+        <li><a href="#supporters">Sponsors</a></li>
+        <li><a href="#team">Team</a></li>
+      </ul>
+
+      <div class="navbar-form navbar-right navbar-buy"><a href="http://tickets.barcelonajs.org" class="btn btn-default btn-sm" >Buy your ticket</a></div>
+
+    </div><!--/.navbar-collapse -->
+  </div>
 </div>
 
-<a name="speakers"></a>
-<section class="speakers row">
-  <div class="col-xs-12">
-    <h3 class="col-sm-offset-1">Speakers</h3>
-  </div>
-  
-  <div class="member col-xs-12 col-sm-6 col-md-3">
-    <a href="/speaker/alex-fernandez.html">
-      <div class="hexagon member-portrait" style="background-image: url(/assets/images/alex-fernandez.jpg);">
-        <div class="hexTop"></div>
-        <div class="hexBottom"></div>
+
+<div style="height:50px"></div>
+
+
+  <div role="main">
+
+    
+<section id="intro">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6 col-md-4">
+        <h1 class="title"><span>WeNode</span></h1>
       </div>
-    </a>
-    <div class="member-profile text-center">
-      <span class="member-name">Alex Fernández</span>
-      <br />
-      <i class="fa fa-twitter"></i>  <a href="http://twitter.com/pinchito">pinchito</a>
+      <div class="col-sm-6 col-md-8">
+        <div class="mostimportant">
+          <span class="when">4. October 2014</span>
+          <br />
+          <span class="where">Mobile World Centre, C/ de Fontanella, 2, Barcelona</span>
+          <div class="row">
+            <h3 class="text-center"><a class="btn btn-default btn-lg" href="http://tickets.barcelonajs.org">Buy your ticket</a></h3>
+            <p class="text-right intro-social"><i class="fa fa-twitter"></i> @bcnjs / #wenode</p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
+
+  <div class="hidden-xs text-center">
+    <div class="minibar">
+      
+  <a href="/speaker/alex-fernandez.html" class="speakers-row-item">
+    <div class="hexagon-sm member-portrait" style="background-image: url(/assets/images/alex-fernandez.jpg);">
+      <div class="hexTop"></div>
+      <div class="hexBottom"></div>
+    </div>
+  </a>
+
+  <a href="/speaker/carlos-hernandez.html" class="speakers-row-item">
+    <div class="hexagon-sm member-portrait" style="background-image: url(/assets/images/carlos-hernandez.jpg);">
+      <div class="hexTop"></div>
+      <div class="hexBottom"></div>
+    </div>
+  </a>
+
+  <a href="/speaker/christoph-neuroth.html" class="speakers-row-item">
+    <div class="hexagon-sm member-portrait" style="background-image: url(/assets/images/christoph-neuroth.jpg);">
+      <div class="hexTop"></div>
+      <div class="hexBottom"></div>
+    </div>
+  </a>
+
+  <a href="/speaker/dimitris-kapanidis.html" class="speakers-row-item">
+    <div class="hexagon-sm member-portrait" style="background-image: url(/assets/images/dimitris-kapanidis.jpg);">
+      <div class="hexTop"></div>
+      <div class="hexBottom"></div>
+    </div>
+  </a>
+
+  <a href="/speaker/gergely-nemeth.html" class="speakers-row-item">
+    <div class="hexagon-sm member-portrait" style="background-image: url(/assets/images/gergely-nemeth.jpg);">
+      <div class="hexTop"></div>
+      <div class="hexBottom"></div>
+    </div>
+  </a>
+
+  <a href="/speaker/ingvar-stepanyan.html" class="speakers-row-item">
+    <div class="hexagon-sm member-portrait" style="background-image: url(/assets/images/ingvar-stepanyan.jpg);">
+      <div class="hexTop"></div>
+      <div class="hexBottom"></div>
+    </div>
+  </a>
+
+  <a href="/speaker/javier-abadia.html" class="speakers-row-item">
+    <div class="hexagon-sm member-portrait" style="background-image: url(/assets/images/javier-abadia.jpg);">
+      <div class="hexTop"></div>
+      <div class="hexBottom"></div>
+    </div>
+  </a>
+
+  <a href="/speaker/krasimir-tsonev.html" class="speakers-row-item">
+    <div class="hexagon-sm member-portrait" style="background-image: url(/assets/images/krasimir-tsonev.jpg);">
+      <div class="hexTop"></div>
+      <div class="hexBottom"></div>
+    </div>
+  </a>
+
+  <a href="/speaker/martin-neumann.html" class="speakers-row-item">
+    <div class="hexagon-sm member-portrait" style="background-image: url(/assets/images/martin-neumann.jpg);">
+      <div class="hexTop"></div>
+      <div class="hexBottom"></div>
+    </div>
+  </a>
+
+  <a href="/speaker/michael-hackstein.html" class="speakers-row-item">
+    <div class="hexagon-sm member-portrait" style="background-image: url(/assets/images/michael-hackstein.jpg);">
+      <div class="hexTop"></div>
+      <div class="hexBottom"></div>
+    </div>
+  </a>
+
+  <a href="/speaker/tim-perry.html" class="speakers-row-item">
+    <div class="hexagon-sm member-portrait" style="background-image: url(/assets/images/tim-perry.jpg);">
+      <div class="hexTop"></div>
+      <div class="hexBottom"></div>
+    </div>
+  </a>
+
+  <a href="/speaker/valeri-karpov.html" class="speakers-row-item">
+    <div class="hexagon-sm member-portrait" style="background-image: url(/assets/images/valeri-karpov.jpg);">
+      <div class="hexTop"></div>
+      <div class="hexBottom"></div>
+    </div>
+  </a>
+
+
+    </div>
+    <div class="sponsorbar">
+      <div class="supporters-small">
   
-  <div class="member col-xs-12 col-sm-6 col-md-3">
-    <a href="/speaker/carlos-hernandez.html">
-      <div class="hexagon member-portrait" style="background-image: url(/assets/images/carlos-hernandez.jpg);">
-        <div class="hexTop"></div>
-        <div class="hexBottom"></div>
-      </div>
-    </a>
-    <div class="member-profile text-center">
-      <span class="member-name">Carlos Hernandez</span>
-      <br />
-      <i class="fa fa-twitter"></i>  <a href="http://twitter.com/k4rliky">k4rliky</a>
+  <a href="http://mobileworldcapital.com?utm_source=wenode&utm_medium=sponsor&utm_campaign=barcelonajs" target="_blank">
+    <img class="" src="/assets/images/logo-sponsor-mwc2x.png" alt=Mobile World Capital />
+  </a>
+  
+  <a href="http://www.jobfluent.com?utm_source=wenode&utm_medium=sponsor&utm_campaign=barcelonajs" target="_blank">
+    <img class="" src="/assets/images/logo-sponsor-jobfluent.jpg" alt=JobFluent />
+  </a>
+  
+  <a href="http://www.risingstack.com?utm_source=wenode&utm_medium=sponsor&utm_campaign=barcelonajs" target="_blank">
+    <img class="" src="/assets/images/logo-sponsor-risingstack.jpg" alt=Rising Stack />
+  </a>
+  
+  <a href="http://www.oreilly.com?utm_source=wenode&utm_medium=sponsor&utm_campaign=barcelonajs" target="_blank">
+    <img class="" src="/assets/images/logo-sponsor-oreilly.png" alt=O&#x27;Reilly />
+  </a>
+  
+  <a href="http://www.mongodb.com?utm_source=wenode&utm_medium=sponsor&utm_campaign=barcelonajs" target="_blank">
+    <img class="" src="/assets/images/logo-sponsor-mongodb.png" alt=MongoDB />
+  </a>
+  
+  <a href="http://mediasmart.mobi?utm_source=wenode&utm_medium=sponsor&utm_campaign=barcelonajs" target="_blank">
+    <img class="" src="/assets/images/logo-sponsor-mediasmart.jpg" alt=mediasmart />
+  </a>
+  
+  <a href="https://www.arangodb.org?utm_source=wenode&utm_medium=sponsor&utm_campaign=barcelonajs" target="_blank">
+    <img class="" src="/assets/images/logo-sponsor-arangodb.png" alt=mediasmart />
+  </a>
+  
+  <a href="http://www.barcinno.com?utm_source=wenode&utm_medium=sponsor&utm_campaign=barcelonajs" target="_blank">
+    <img class="" src="/assets/images/logo-sponsor-barcinno.jpg" alt=barcinno />
+  </a>
+  
+</div>
+
     </div>
   </div>
-  
-  <div class="member col-xs-12 col-sm-6 col-md-3">
-    <a href="/speaker/christoph-neuroth.html">
-      <div class="hexagon member-portrait" style="background-image: url(/assets/images/christoph-neuroth.jpg);">
-        <div class="hexTop"></div>
-        <div class="hexBottom"></div>
+
+  <div class="intro-motivation">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-4">
+          <p>WeNode – a one-day not-for-profit conference about node.js, server-side and embedded JavaScript technologies.</p>
+          <p>Organised by BarcelonaJS for the community.</p>
+        </div>
+        <div class="col-xs-12 col-sm-4">
+          <p>WeNode – una conferencia de un día sin animo de lucro sobre tecnologías node.js, server-side y embedded Javascript.</p>
+          <p>Organitzat des de BarcelonaJS per a la comunitat.</p>
+        </div>
+        <div class="col-xs-12 col-sm-4">
+          <p>WeNode – una conferencia d'un dia sense anim de lucre sobre node.js, i tecnologies server-side i embedded Javascript.</p>
+          <p>Organizado desde BarcelonaJS para la comunidad.</p>
+        </div>
       </div>
-    </a>
-    <div class="member-profile text-center">
-      <span class="member-name">Christoph Neuroth</span>
-      <br />
-      <i class="fa fa-twitter"></i>  <a href="http://twitter.com/c089">c089</a>
     </div>
   </div>
-  
-  <div class="member col-xs-12 col-sm-6 col-md-3">
-    <a href="/speaker/dimitris-kapanidis.html">
-      <div class="hexagon member-portrait" style="background-image: url(/assets/images/dimitris-kapanidis.jpg);">
-        <div class="hexTop"></div>
-        <div class="hexBottom"></div>
-      </div>
-    </a>
-    <div class="member-profile text-center">
-      <span class="member-name">Dimitris Kapanidis</span>
-      <br />
-      <i class="fa fa-twitter"></i>  <a href="http://twitter.com/spiddy">spiddy</a>
-    </div>
-  </div>
-  
-  <div class="member col-xs-12 col-sm-6 col-md-3">
-    <a href="/speaker/gergely-nemeth.html">
-      <div class="hexagon member-portrait" style="background-image: url(/assets/images/gergely-nemeth.jpg);">
-        <div class="hexTop"></div>
-        <div class="hexBottom"></div>
-      </div>
-    </a>
-    <div class="member-profile text-center">
-      <span class="member-name">Gergely Nemeth</span>
-      <br />
-      <i class="fa fa-twitter"></i>  <a href="http://twitter.com/nthgergo">nthgergo</a>
-    </div>
-  </div>
-  
-  <div class="member col-xs-12 col-sm-6 col-md-3">
-    <a href="/speaker/ingvar-stepanyan.html">
-      <div class="hexagon member-portrait" style="background-image: url(/assets/images/ingvar-stepanyan.jpg);">
-        <div class="hexTop"></div>
-        <div class="hexBottom"></div>
-      </div>
-    </a>
-    <div class="member-profile text-center">
-      <span class="member-name">Ingvar Stepanyan</span>
-      <br />
-      <i class="fa fa-twitter"></i>  <a href="http://twitter.com/RReverser">RReverser</a>
-    </div>
-  </div>
-  
-  <div class="member col-xs-12 col-sm-6 col-md-3">
-    <a href="/speaker/javier-abadia.html">
-      <div class="hexagon member-portrait" style="background-image: url(/assets/images/javier-abadia.jpg);">
-        <div class="hexTop"></div>
-        <div class="hexBottom"></div>
-      </div>
-    </a>
-    <div class="member-profile text-center">
-      <span class="member-name">Javier Abadía</span>
-      <br />
-      <i class="fa fa-twitter"></i>  <a href="http://twitter.com/javierabadia">javierabadia</a>
-    </div>
-  </div>
-  
-  <div class="member col-xs-12 col-sm-6 col-md-3">
-    <a href="/speaker/krasimir-tsonev.html">
-      <div class="hexagon member-portrait" style="background-image: url(/assets/images/krasimir-tsonev.jpg);">
-        <div class="hexTop"></div>
-        <div class="hexBottom"></div>
-      </div>
-    </a>
-    <div class="member-profile text-center">
-      <span class="member-name">Krasimir Tsonev</span>
-      <br />
-      <i class="fa fa-twitter"></i>  <a href="http://twitter.com/KrasimirTsonev">KrasimirTsonev</a>
-    </div>
-  </div>
-  
-  <div class="member col-xs-12 col-sm-6 col-md-3">
-    <a href="/speaker/martin-neumann.html">
-      <div class="hexagon member-portrait" style="background-image: url(/assets/images/martin-neumann.jpg);">
-        <div class="hexTop"></div>
-        <div class="hexBottom"></div>
-      </div>
-    </a>
-    <div class="member-profile text-center">
-      <span class="member-name">Martin Neumann</span>
-      <br />
-      <i class="fa fa-twitter"></i>  <a href="http://twitter.com/g33konaut">g33konaut</a>
-    </div>
-  </div>
-  
-  <div class="member col-xs-12 col-sm-6 col-md-3">
-    <a href="/speaker/michael-hackstein.html">
-      <div class="hexagon member-portrait" style="background-image: url(/assets/images/michael-hackstein.jpg);">
-        <div class="hexTop"></div>
-        <div class="hexBottom"></div>
-      </div>
-    </a>
-    <div class="member-profile text-center">
-      <span class="member-name">Michael Hackstein</span>
-      <br />
-      <i class="fa fa-twitter"></i>  <a href="http://twitter.com/mchacki">mchacki</a>
-    </div>
-  </div>
-  
-  <div class="member col-xs-12 col-sm-6 col-md-3">
-    <a href="/speaker/tim-perry.html">
-      <div class="hexagon member-portrait" style="background-image: url(/assets/images/tim-perry.jpg);">
-        <div class="hexTop"></div>
-        <div class="hexBottom"></div>
-      </div>
-    </a>
-    <div class="member-profile text-center">
-      <span class="member-name">Tim Perry</span>
-      <br />
-      <i class="fa fa-twitter"></i>  <a href="http://twitter.com/pimterry">pimterry</a>
-    </div>
-  </div>
-  
-  <div class="member col-xs-12 col-sm-6 col-md-3">
-    <a href="/speaker/valeri-karpov.html">
-      <div class="hexagon member-portrait" style="background-image: url(/assets/images/valeri-karpov.jpg);">
-        <div class="hexTop"></div>
-        <div class="hexBottom"></div>
-      </div>
-    </a>
-    <div class="member-profile text-center">
-      <span class="member-name">Valeri Karpov</span>
-      <br />
-      <i class="fa fa-twitter"></i>  <a href="http://twitter.com/code_barbarian">code_barbarian</a>
-    </div>
-  </div>
-  
+
 </section>
 
-<div class="row spacer">
-  <h3 class="text-center register"><a class="btn btn-default btn-lg" href="http://tickets.barcelonajs.org">Buy your ticket</a></h3>
-  <p class="text-right"><i class="fa fa-twitter"></i> @bcnjs / #wenode</p>
-</div>
 
-<a name="agenda"></a>
-<section class="agenda row">
-  <div class="col-xs-12">
-    <h3 class="col-sm-offset-1">Agenda</h3>
+<section id="speakers">
+
+  <div class="container">
     <div class="row">
-      <table class="table table-bordered table-responsive text-center">
-        <thead>
-          <tr>
-            <th class="col-xs-2"></th>
-            <th class="col-xs-5 text-center">Track 1</th>
-            <th class="col-xs-5 text-center">Track 2</th>
-          </tr>
-        </thead>
-        <tbody>
+      <div class="col-xs-12" >
+        <h3 class="col-sm-offset-1">Speakers</h3>
+      </div>
+    </div>
+
+    <div class="row">
+      
+      <div class="member col-xs-12 col-sm-6 col-md-3">
+        <a href="/speaker/alex-fernandez.html">
+          <div class="hexagon hexagon-center member-portrait" style="background-image: url(/assets/images/alex-fernandez.jpg);">
+            <div class="hexTop"></div>
+            <div class="hexBottom"></div>
+          </div>
+        </a>
+        <div class="member-profile text-center">
+          <span class="member-name">Alex Fernández</span>
+          <br />
+          <i class="fa fa-twitter"></i>  <a href="http://twitter.com/pinchito">pinchito</a>
+        </div>
+      </div>
+      
+      <div class="member col-xs-12 col-sm-6 col-md-3">
+        <a href="/speaker/carlos-hernandez.html">
+          <div class="hexagon hexagon-center member-portrait" style="background-image: url(/assets/images/carlos-hernandez.jpg);">
+            <div class="hexTop"></div>
+            <div class="hexBottom"></div>
+          </div>
+        </a>
+        <div class="member-profile text-center">
+          <span class="member-name">Carlos Hernandez</span>
+          <br />
+          <i class="fa fa-twitter"></i>  <a href="http://twitter.com/k4rliky">k4rliky</a>
+        </div>
+      </div>
+      
+      <div class="member col-xs-12 col-sm-6 col-md-3">
+        <a href="/speaker/christoph-neuroth.html">
+          <div class="hexagon hexagon-center member-portrait" style="background-image: url(/assets/images/christoph-neuroth.jpg);">
+            <div class="hexTop"></div>
+            <div class="hexBottom"></div>
+          </div>
+        </a>
+        <div class="member-profile text-center">
+          <span class="member-name">Christoph Neuroth</span>
+          <br />
+          <i class="fa fa-twitter"></i>  <a href="http://twitter.com/c089">c089</a>
+        </div>
+      </div>
+      
+      <div class="member col-xs-12 col-sm-6 col-md-3">
+        <a href="/speaker/dimitris-kapanidis.html">
+          <div class="hexagon hexagon-center member-portrait" style="background-image: url(/assets/images/dimitris-kapanidis.jpg);">
+            <div class="hexTop"></div>
+            <div class="hexBottom"></div>
+          </div>
+        </a>
+        <div class="member-profile text-center">
+          <span class="member-name">Dimitris Kapanidis</span>
+          <br />
+          <i class="fa fa-twitter"></i>  <a href="http://twitter.com/spiddy">spiddy</a>
+        </div>
+      </div>
+      
+      <div class="member col-xs-12 col-sm-6 col-md-3">
+        <a href="/speaker/gergely-nemeth.html">
+          <div class="hexagon hexagon-center member-portrait" style="background-image: url(/assets/images/gergely-nemeth.jpg);">
+            <div class="hexTop"></div>
+            <div class="hexBottom"></div>
+          </div>
+        </a>
+        <div class="member-profile text-center">
+          <span class="member-name">Gergely Nemeth</span>
+          <br />
+          <i class="fa fa-twitter"></i>  <a href="http://twitter.com/nthgergo">nthgergo</a>
+        </div>
+      </div>
+      
+      <div class="member col-xs-12 col-sm-6 col-md-3">
+        <a href="/speaker/ingvar-stepanyan.html">
+          <div class="hexagon hexagon-center member-portrait" style="background-image: url(/assets/images/ingvar-stepanyan.jpg);">
+            <div class="hexTop"></div>
+            <div class="hexBottom"></div>
+          </div>
+        </a>
+        <div class="member-profile text-center">
+          <span class="member-name">Ingvar Stepanyan</span>
+          <br />
+          <i class="fa fa-twitter"></i>  <a href="http://twitter.com/RReverser">RReverser</a>
+        </div>
+      </div>
+      
+      <div class="member col-xs-12 col-sm-6 col-md-3">
+        <a href="/speaker/javier-abadia.html">
+          <div class="hexagon hexagon-center member-portrait" style="background-image: url(/assets/images/javier-abadia.jpg);">
+            <div class="hexTop"></div>
+            <div class="hexBottom"></div>
+          </div>
+        </a>
+        <div class="member-profile text-center">
+          <span class="member-name">Javier Abadía</span>
+          <br />
+          <i class="fa fa-twitter"></i>  <a href="http://twitter.com/javierabadia">javierabadia</a>
+        </div>
+      </div>
+      
+      <div class="member col-xs-12 col-sm-6 col-md-3">
+        <a href="/speaker/krasimir-tsonev.html">
+          <div class="hexagon hexagon-center member-portrait" style="background-image: url(/assets/images/krasimir-tsonev.jpg);">
+            <div class="hexTop"></div>
+            <div class="hexBottom"></div>
+          </div>
+        </a>
+        <div class="member-profile text-center">
+          <span class="member-name">Krasimir Tsonev</span>
+          <br />
+          <i class="fa fa-twitter"></i>  <a href="http://twitter.com/KrasimirTsonev">KrasimirTsonev</a>
+        </div>
+      </div>
+      
+      <div class="member col-xs-12 col-sm-6 col-md-3">
+        <a href="/speaker/martin-neumann.html">
+          <div class="hexagon hexagon-center member-portrait" style="background-image: url(/assets/images/martin-neumann.jpg);">
+            <div class="hexTop"></div>
+            <div class="hexBottom"></div>
+          </div>
+        </a>
+        <div class="member-profile text-center">
+          <span class="member-name">Martin Neumann</span>
+          <br />
+          <i class="fa fa-twitter"></i>  <a href="http://twitter.com/g33konaut">g33konaut</a>
+        </div>
+      </div>
+      
+      <div class="member col-xs-12 col-sm-6 col-md-3">
+        <a href="/speaker/michael-hackstein.html">
+          <div class="hexagon hexagon-center member-portrait" style="background-image: url(/assets/images/michael-hackstein.jpg);">
+            <div class="hexTop"></div>
+            <div class="hexBottom"></div>
+          </div>
+        </a>
+        <div class="member-profile text-center">
+          <span class="member-name">Michael Hackstein</span>
+          <br />
+          <i class="fa fa-twitter"></i>  <a href="http://twitter.com/mchacki">mchacki</a>
+        </div>
+      </div>
+      
+      <div class="member col-xs-12 col-sm-6 col-md-3">
+        <a href="/speaker/tim-perry.html">
+          <div class="hexagon hexagon-center member-portrait" style="background-image: url(/assets/images/tim-perry.jpg);">
+            <div class="hexTop"></div>
+            <div class="hexBottom"></div>
+          </div>
+        </a>
+        <div class="member-profile text-center">
+          <span class="member-name">Tim Perry</span>
+          <br />
+          <i class="fa fa-twitter"></i>  <a href="http://twitter.com/pimterry">pimterry</a>
+        </div>
+      </div>
+      
+      <div class="member col-xs-12 col-sm-6 col-md-3">
+        <a href="/speaker/valeri-karpov.html">
+          <div class="hexagon hexagon-center member-portrait" style="background-image: url(/assets/images/valeri-karpov.jpg);">
+            <div class="hexTop"></div>
+            <div class="hexBottom"></div>
+          </div>
+        </a>
+        <div class="member-profile text-center">
+          <span class="member-name">Valeri Karpov</span>
+          <br />
+          <i class="fa fa-twitter"></i>  <a href="http://twitter.com/code_barbarian">code_barbarian</a>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+</section>
+
+
+<section class="spacer">
+	<div class="container">
+		<div class="row">
+		  <h3 class="text-center register"><a class="btn btn-default btn-lg" href="http://tickets.barcelonajs.org">Buy your ticket</a></h3>
+		  <p class="text-right"><i class="fa fa-twitter"></i> @bcnjs / #wenode</p>
+		</div>
+	</div>
+</section>
+
+<section id="agenda">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <h3 class="col-sm-offset-1">Agenda</h3>
+      </div>
+    </div>
+
+    <div class="row">
+      <table class="agenda-table">
+        
+        <tbody class="agenda-body">
           
-          <tr class="info" >
-            <td>9.30</td>
+          <tr class="agenda-row agenda-info">
+            <td class="agenda-time">9:30h</td>
 
-            <td colspan="2" >
-              <strong>Registration</strong> 
-            </td>
-
-            
-
-          </tr>
-          
-          <tr class="info" >
-            <td>9.55</td>
-
-            <td colspan="2" >
-              <strong>Welcome</strong> 
-            </td>
-
-            
-
-          </tr>
-          
-          <tr >
-            <td>10.00</td>
-
-            <td colspan="2" >
-              TBA 
-            </td>
-
-            
-
-          </tr>
-          
-          <tr >
-            <td>10.35</td>
-
-            <td colspan="2" >
-              Property-based testing - another nail in TDD's coffin? <small>Christoph Neuroth</small> 
-            </td>
-
-            
-
-          </tr>
-          
-          <tr >
-            <td>11.10</td>
-
-            <td colspan="2" >
-              Microservices & Web Components Are The Same Thing. <small>Tim Perry</small> 
-            </td>
-
-            
-
-          </tr>
-          
-          <tr class="active" >
-            <td>11.40</td>
-
-            <td colspan="2" >
-              <emph>Coffee break</emph> 
-            </td>
-
-            
-
-          </tr>
-          
-          <tr >
-            <td>12.00</td>
-
-            <td >
-              The legend of HTML5: A link between worlds <small>Carlos Hernandez</small> 
-            </td>
-
-            
-            <td rowspan="4" style="vertical-align:middle;" >
-              Building a MEAN Stack Single Page App in 2 Hours. <small>Valeri Karpov</small> 
-            </td>
-            
-
-          </tr>
-          
-          <tr >
-            <td>12.35</td>
-
-            <td >
-              To the MEAN stack and beyond! <small>Martin Naumann</small> 
-            </td>
-
-            
-
-          </tr>
-          
-          <tr >
-            <td>13.10</td>
-
-            <td >
-              Scalability Lessons: Beyond 50k requests per second. <small>Alex Fernández</small> 
-            </td>
-
-            
-
-          </tr>
-          
-          <tr >
-            <td>13.45</td>
-
-            <td >
-              AST - the only "true" tool for code building <small>Ingvar Stepanyan</small> 
-            </td>
-
-            
-
-          </tr>
-          
-          <tr class="active" >
-            <td>14.15</td>
-
-            <td colspan="2" >
-              <emph>Lunch break</emph> 
-            </td>
-
-            
-
-          </tr>
-          
-          <tr >
-            <td>15.00</td>
-
-            <td >
-              TBA 
-            </td>
-
-            
-            <td rowspan="4" style="vertical-align:middle;" >
-              Experts Workshop, TBA 
-            </td>
-            
-
-          </tr>
-          
-          <tr >
-            <td>15.35</td>
-
-            <td >
-              From PHP to organising Nodebp. <small>Gergely Nemeth</small> 
-            </td>
-
-            
-
-          </tr>
-          
-          <tr >
-            <td>16.10</td>
-
-            <td >
-              NodeJS in the NoSQL World. <small>Michael Hackstein</small> 
-            </td>
-
-            
-
-          </tr>
-          
-          <tr >
-            <td>16.45</td>
-
-            <td >
-              Continuous Delivery of Node.js Apps with Docker from Scratch to Production. <small>Dimitris Kapanidis</small> 
-            </td>
-
-            
-
-          </tr>
-          
-          <tr class="active" >
-            <td>17.15</td>
-
-            <td colspan="2" >
-              <emph>Coffee break</emph> 
-            </td>
-
-            
-
-          </tr>
-          
-          <tr >
-            <td>17.45</td>
-
-            <td colspan="2" >
-              AbsurdJS - Hacking the Front-End. <small>Krasimir Tsonev</small> 
-            </td>
-
-            
-
-          </tr>
-          
-          <tr >
-            <td>18.20</td>
-
-            <td colspan="2" >
-              Controlling RealWorld&trade; elements with Node.js and Arduino. <small>Javier Abadía</small> 
-            </td>
-
-            
-
-          </tr>
-          
-          <tr >
-            <td>18.55</td>
-
-            <td colspan="2" >
-              TBA 
+            <td class="agenda-talk" colspan="2" >
+              
+                <div class="agenda-title">Registration</div>
+                <div class="agenda-speaker"></div>
+              
+              
             </td>
 
             
 
           </tr>
           
-          <tr class="info" >
-            <td>19.25</td>
+          <tr class="agenda-row agenda-info">
+            <td class="agenda-time">9:55h</td>
 
-            <td colspan="2" >
-              <emph>Farewell & Drinks</emph> 
+            <td class="agenda-talk" colspan="2" >
+              
+                <div class="agenda-title">Welcome</div>
+                <div class="agenda-speaker"></div>
+              
+              
+            </td>
+
+            
+
+          </tr>
+          
+          <tr class="agenda-row ">
+            <td class="agenda-time">10:00h</td>
+
+            <td class="agenda-talk" colspan="2" >
+              
+                <div class="agenda-title">TBA</div>
+                <div class="agenda-speaker"></div>
+              
+              
+            </td>
+
+            
+
+          </tr>
+          
+          <tr class="agenda-row ">
+            <td class="agenda-time">10:35h</td>
+
+            <td class="agenda-talk" colspan="2" >
+              <a href="speaker/christoph-neuroth.html">
+                <div class="agenda-title">Property-based testing - another nail in TDD's coffin?</div>
+                <div class="agenda-speaker">Christoph Neuroth</div>
+              </a>
+              
+            </td>
+
+            
+
+          </tr>
+          
+          <tr class="agenda-row ">
+            <td class="agenda-time">11:10h</td>
+
+            <td class="agenda-talk" colspan="2" >
+              <a href="speaker/tim-perry.html">
+                <div class="agenda-title">Microservices & Web Components Are The Same Thing</div>
+                <div class="agenda-speaker">Tim Perry</div>
+              </a>
+              
+            </td>
+
+            
+
+          </tr>
+          
+          <tr class="agenda-row agenda-break">
+            <td class="agenda-time">11:40h</td>
+
+            <td class="agenda-talk" colspan="2" >
+              
+                <div class="agenda-title">Coffee break</div>
+                <div class="agenda-speaker"></div>
+              
+              
+            </td>
+
+            
+
+          </tr>
+          
+          <tr class="agenda-row ">
+            <td class="agenda-time">12:00h</td>
+
+            <td class="agenda-talk" >
+              <a href="speaker/carlos-hernandez.html">
+                <div class="agenda-title">The legend of HTML5: A link between worlds</div>
+                <div class="agenda-speaker">Carlos Hernandez</div>
+              </a>
+              
+            </td>
+
+            
+            <td class="agenda-workshop" rowspan="4" >
+              <a href="speaker/valeri-karpov.html">
+                <div class="agenda-title">Building a MEAN Stack Single Page App in 2 Hours</div>
+                <div class="agenda-speaker">Valeri Karpov</div>
+              </a>
+              
+            </td>
+            
+
+          </tr>
+          
+          <tr class="agenda-row ">
+            <td class="agenda-time">12:35h</td>
+
+            <td class="agenda-talk" >
+              <a href="speaker/martin-naumann.html">
+                <div class="agenda-title">To the MEAN stack and beyond!</div>
+                <div class="agenda-speaker">Martin Naumann</div>
+              </a>
+              
+            </td>
+
+            
+
+          </tr>
+          
+          <tr class="agenda-row ">
+            <td class="agenda-time">13:10h</td>
+
+            <td class="agenda-talk" >
+              <a href="speaker/alex-fernandez.html">
+                <div class="agenda-title">Scalability Lessons: Beyond 50k requests per second</div>
+                <div class="agenda-speaker">Alex Fernández</div>
+              </a>
+              
+            </td>
+
+            
+
+          </tr>
+          
+          <tr class="agenda-row ">
+            <td class="agenda-time">13:45h</td>
+
+            <td class="agenda-talk" >
+              <a href="speaker/ingvar-stepanyan.html">
+                <div class="agenda-title">AST - the only "true" tool for code building</div>
+                <div class="agenda-speaker">Ingvar Stepanyan</div>
+              </a>
+              
+            </td>
+
+            
+
+          </tr>
+          
+          <tr class="agenda-row agenda-break">
+            <td class="agenda-time">14:15h</td>
+
+            <td class="agenda-talk" colspan="2" >
+              
+                <div class="agenda-title">Lunch break</div>
+                <div class="agenda-speaker"></div>
+              
+              
+            </td>
+
+            
+
+          </tr>
+          
+          <tr class="agenda-row ">
+            <td class="agenda-time">15:00h</td>
+
+            <td class="agenda-talk" >
+              
+                <div class="agenda-title">TBA</div>
+                <div class="agenda-speaker"></div>
+              
+              
+            </td>
+
+            
+            <td class="agenda-workshop" rowspan="4" >
+              <a href="speaker/.html">
+                <div class="agenda-title">Experts Workshop, TBA</div>
+                <div class="agenda-speaker"></div>
+              </a>
+              
+            </td>
+            
+
+          </tr>
+          
+          <tr class="agenda-row ">
+            <td class="agenda-time">15:35h</td>
+
+            <td class="agenda-talk" >
+              <a href="speaker/gergely-nemeth.html">
+                <div class="agenda-title">From PHP to organising Nodebp</div>
+                <div class="agenda-speaker">Gergely Nemeth</div>
+              </a>
+              
+            </td>
+
+            
+
+          </tr>
+          
+          <tr class="agenda-row ">
+            <td class="agenda-time">16:10h</td>
+
+            <td class="agenda-talk" >
+              <a href="speaker/michael-hackstein.html">
+                <div class="agenda-title">NodeJS in the NoSQL World</div>
+                <div class="agenda-speaker">Michael Hackstein</div>
+              </a>
+              
+            </td>
+
+            
+
+          </tr>
+          
+          <tr class="agenda-row ">
+            <td class="agenda-time">16:45h</td>
+
+            <td class="agenda-talk" >
+              <a href="speaker/dimitris-kapanidis.html">
+                <div class="agenda-title">Continuous Delivery of Node.js Apps with Docker from Scratch to Production</div>
+                <div class="agenda-speaker">Dimitris Kapanidis</div>
+              </a>
+              
+            </td>
+
+            
+
+          </tr>
+          
+          <tr class="agenda-row agenda-break">
+            <td class="agenda-time">17:15h</td>
+
+            <td class="agenda-talk" colspan="2" >
+              
+                <div class="agenda-title">Coffee break</div>
+                <div class="agenda-speaker"></div>
+              
+              
+            </td>
+
+            
+
+          </tr>
+          
+          <tr class="agenda-row ">
+            <td class="agenda-time">17:45h</td>
+
+            <td class="agenda-talk" colspan="2" >
+              <a href="speaker/krasimir-tsonev.html">
+                <div class="agenda-title">AbsurdJS - Hacking the Front-End</div>
+                <div class="agenda-speaker">Krasimir Tsonev</div>
+              </a>
+              
+            </td>
+
+            
+
+          </tr>
+          
+          <tr class="agenda-row ">
+            <td class="agenda-time">18:20h</td>
+
+            <td class="agenda-talk" colspan="2" >
+              <a href="speaker/javier-abadia.html">
+                <div class="agenda-title">Controlling RealWorld&trade; elements with Node.js and Arduino</div>
+                <div class="agenda-speaker">Javier Abadía</div>
+              </a>
+              
+            </td>
+
+            
+
+          </tr>
+          
+          <tr class="agenda-row ">
+            <td class="agenda-time">18:55h</td>
+
+            <td class="agenda-talk" colspan="2" >
+              
+                <div class="agenda-title">TBA</div>
+                <div class="agenda-speaker"></div>
+              
+              
+            </td>
+
+            
+
+          </tr>
+          
+          <tr class="agenda-row agenda-info">
+            <td class="agenda-time">19:25h</td>
+
+            <td class="agenda-talk" colspan="2" >
+              
+                <div class="agenda-title">Farewell & Drinks</div>
+                <div class="agenda-speaker"></div>
+              
+              
             </td>
 
             
@@ -493,145 +763,141 @@
       </table>
     </div>
   </div>
-</section>
-
-<div class="row spacer">
-  <h3 class="text-center register"><a class="btn btn-default btn-lg" href="http://tickets.barcelonajs.org">Buy your ticket</a></h3>
-  <p class="text-right"><i class="fa fa-twitter"></i> @bcnjs / #wenode</p>
-</div>
-
-<a name="supporters"></a>
-<section class="supporters row">
-  <div class="col-xs-12">
-    <h3 class="col-sm-offset-1">Supporters</h3>
-    
-    <div class="supporter col-xs-12 col-sm-4 text-center">
-      <a href="http://mobileworldcapital.com">
-        <img class="supporter-logo" src="/assets/images/logo-sponsor-mwc2x.png" alt=Mobile World Capital />
-      </a>
-    </div>
-    
-    <div class="supporter col-xs-12 col-sm-4 text-center">
-      <a href="http://www.jobfluent.com">
-        <img class="supporter-logo" src="/assets/images/logo-sponsor-jobfluent.jpg" alt=JobFluent />
-      </a>
-    </div>
-    
-    <div class="supporter col-xs-12 col-sm-4 text-center">
-      <a href="http://www.risingstack.com">
-        <img class="supporter-logo" src="/assets/images/logo-sponsor-risingstack.jpg" alt=Rising Stack />
-      </a>
-    </div>
-    
-    <div class="supporter col-xs-12 col-sm-4 text-center">
-      <a href="http://www.oreilly.com">
-        <img class="supporter-logo" src="/assets/images/logo-sponsor-oreilly.png" alt=O&#x27;Reilly />
-      </a>
-    </div>
-    
-    <div class="supporter col-xs-12 col-sm-4 text-center">
-      <a href="http://www.mongodb.com">
-        <img class="supporter-logo" src="/assets/images/logo-sponsor-mongodb.png" alt=MongoDB />
-      </a>
-    </div>
-    
-    <div class="supporter col-xs-12 col-sm-4 text-center">
-      <a href="http://mediasmart.mobi">
-        <img class="supporter-logo" src="/assets/images/logo-sponsor-mediasmart.jpg" alt=mediasmart />
-      </a>
-    </div>
-    
-    <div class="supporter col-xs-12 col-sm-4 text-center">
-      <a href="https://www.arangodb.org">
-        <img class="supporter-logo" src="/assets/images/logo-sponsor-arangodb.png" alt=mediasmart />
-      </a>
-    </div>
-    
-    <div class="supporter col-xs-12 col-sm-4 text-center">
-      <a href="http://www.barcinno.com">
-        <img class="supporter-logo" src="/assets/images/logo-sponsor-barcinno.jpg" alt=barcinno />
-      </a>
-    </div>
-    
-  </div>
-  <div class="col-xs-12 text-center">
-    Want to support or sponsor WeNode? Check out our <a href="sponsors.html">sponsorship packages</a>.
-  </div>
-</section>
-
-<a name="team"></a>
-<section class="team row">
-  <div class="col-xs-12">
-    <h3 class="col-sm-offset-1">Team</h3>
-  </div>
   
-  <div class="member col-xs-12 col-sm-6 col-md-3">
-    <div class="hexagon member-portrait" style="background-image: url(/assets/images/patrick.jpg);">
-      <div class="hexTop"></div>
-      <div class="hexBottom"></div>
-    </div>
-    <div class="member-profile text-center">
-      <span class="member-name">Patrick Heneise</span>
-      <br />
-      <i class="fa fa-twitter"></i>  <a href="http://twitter.com/PatrickHeneise">PatrickHeneise</a>
-    </div>
-  </div>
-  
-  <div class="member col-xs-12 col-sm-6 col-md-3">
-    <div class="hexagon member-portrait" style="background-image: url(/assets/images/drpicox.jpg);">
-      <div class="hexTop"></div>
-      <div class="hexBottom"></div>
-    </div>
-    <div class="member-profile text-center">
-      <span class="member-name">David Rodenas</span>
-      <br />
-      <i class="fa fa-twitter"></i>  <a href="http://twitter.com/drpicox">drpicox</a>
-    </div>
-  </div>
-  
+  <br>
+
 </section>
 
-<section class="meta row">
-  <div class="col-xs-12 text-center">
-    <h4>A BarcelonaJS event. <a href="http://barcelonajs.org/code">Code of Conduct</a></h4>
-    <a href="http://barcelonajs.org"><img class="header-logo" src="/assets/images/logo.png" alt="logo" /></a>
+<section class="spacer">
+	<div class="container">
+		<div class="row">
+		  <h3 class="text-center register"><a class="btn btn-default btn-lg" href="http://tickets.barcelonajs.org">Buy your ticket</a></h3>
+		  <p class="text-right"><i class="fa fa-twitter"></i> @bcnjs / #wenode</p>
+		</div>
+	</div>
+</section>
+
+<section id="supporters">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <h3 class="col-sm-offset-1">Supporters</h3>
+      </div>
+    </div>
+
+    <div class="row">
+      
+      <div class="supporter col-xs-12 col-sm-4 text-center">
+        <a href="http://mobileworldcapital.com?utm_source=wenode&utm_medium=sponsor&utm_campaign=barcelonajs" target="_blank">
+          <img class="supporter-logo img-responsive" src="/assets/images/logo-sponsor-mwc2x.png" alt=Mobile World Capital />
+        </a>
+      </div>
+      
+      <div class="supporter col-xs-12 col-sm-4 text-center">
+        <a href="http://www.jobfluent.com?utm_source=wenode&utm_medium=sponsor&utm_campaign=barcelonajs" target="_blank">
+          <img class="supporter-logo img-responsive" src="/assets/images/logo-sponsor-jobfluent.jpg" alt=JobFluent />
+        </a>
+      </div>
+      
+      <div class="supporter col-xs-12 col-sm-4 text-center">
+        <a href="http://www.risingstack.com?utm_source=wenode&utm_medium=sponsor&utm_campaign=barcelonajs" target="_blank">
+          <img class="supporter-logo img-responsive" src="/assets/images/logo-sponsor-risingstack.jpg" alt=Rising Stack />
+        </a>
+      </div>
+      
+      <div class="supporter col-xs-12 col-sm-4 text-center">
+        <a href="http://www.oreilly.com?utm_source=wenode&utm_medium=sponsor&utm_campaign=barcelonajs" target="_blank">
+          <img class="supporter-logo img-responsive" src="/assets/images/logo-sponsor-oreilly.png" alt=O&#x27;Reilly />
+        </a>
+      </div>
+      
+      <div class="supporter col-xs-12 col-sm-4 text-center">
+        <a href="http://www.mongodb.com?utm_source=wenode&utm_medium=sponsor&utm_campaign=barcelonajs" target="_blank">
+          <img class="supporter-logo img-responsive" src="/assets/images/logo-sponsor-mongodb.png" alt=MongoDB />
+        </a>
+      </div>
+      
+      <div class="supporter col-xs-12 col-sm-4 text-center">
+        <a href="http://mediasmart.mobi?utm_source=wenode&utm_medium=sponsor&utm_campaign=barcelonajs" target="_blank">
+          <img class="supporter-logo img-responsive" src="/assets/images/logo-sponsor-mediasmart.jpg" alt=mediasmart />
+        </a>
+      </div>
+      
+      <div class="supporter col-xs-12 col-sm-4 text-center">
+        <a href="https://www.arangodb.org?utm_source=wenode&utm_medium=sponsor&utm_campaign=barcelonajs" target="_blank">
+          <img class="supporter-logo img-responsive" src="/assets/images/logo-sponsor-arangodb.png" alt=mediasmart />
+        </a>
+      </div>
+      
+      <div class="supporter col-xs-12 col-sm-4 text-center">
+        <a href="http://www.barcinno.com?utm_source=wenode&utm_medium=sponsor&utm_campaign=barcelonajs" target="_blank">
+          <img class="supporter-logo img-responsive" src="/assets/images/logo-sponsor-barcinno.jpg" alt=barcinno />
+        </a>
+      </div>
+      
+    </div>
+    <div class="col-xs-12 text-center">
+      Want to support or sponsor WeNode? Check out our <a href="sponsors.html">sponsorship packages</a>.
+    </div>
   </div>
 </section>
 
 
+<section id="team" class="team">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <h3 class="col-sm-offset-1">Team</h3>
+      </div>
+    </div>
+    <div class="row">
+      
+      <div class="member col-xs-12 col-sm-6 col-md-3">
+        <div class="hexagon hexagon-center member-portrait" style="background-image: url(/assets/images/patrick.jpg);">
+          <div class="hexTop"></div>
+          <div class="hexBottom"></div>
+        </div>
+        <div class="member-profile text-center">
+          <span class="member-name">Patrick Heneise</span>
+          <br />
+          <i class="fa fa-twitter"></i>  <a href="http://twitter.com/PatrickHeneise">PatrickHeneise</a>
+        </div>
+      </div>
+      
+      <div class="member col-xs-12 col-sm-6 col-md-3">
+        <div class="hexagon hexagon-center member-portrait" style="background-image: url(/assets/images/drpicox.jpg);">
+          <div class="hexTop"></div>
+          <div class="hexBottom"></div>
+        </div>
+        <div class="member-profile text-center">
+          <span class="member-name">David Rodenas</span>
+          <br />
+          <i class="fa fa-twitter"></i>  <a href="http://twitter.com/drpicox">drpicox</a>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+<section class="meta">
+	<div class="container">
+		<div class="row">
+		  <div class="col-xs-12 text-center">
+		    <h4>A BarcelonaJS event. <a href="http://barcelonajs.org/code">Code of Conduct</a></h4>
+		    <a href="http://barcelonajs.org"><img class="header-logo" src="assets/images/logo.png" alt="BarcelonaJS Logo" /></a>
+		  </div>
+		</div>
+	</div>
+</section>
+
+
+
   </div>
 
-  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
-  <!-- Include all compiled plugins (below), or include individual files as needed -->
-  <script src="assets/js/bootstrap.min.js"></script>
-  <script>
-    $(document).ready(function() {
-      // cache the window object
-      $window = $(window);
+  <!-- Include all scripts -->
+  <script src="assets/scripts/wenode.js"></script>
 
-      $('section[data-type="background"]').each(function() {
-        var $scroll = $(this);
-
-        $(window).scroll(function() {
-          // HTML5 proves useful for helping with creating JS functions!
-          // also, negative value because we're scrolling upwards
-          var yPos = -($window.scrollTop() / $scroll.data('speed'));
-
-          // background position
-          var coords = '50% ' + yPos + 'px';
-
-          // move the background
-          $scroll.css({
-            backgroundPosition: coords
-          });
-        }); // end window scroll
-      }); // end section function
-    }); // close out script
-
-    /* Create HTML5 element for IE */
-    document.createElement("section");
-  </script>
   <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
