@@ -5,7 +5,7 @@ module.exports = {
     layoutdir: '<%= config.src %>/templates/layouts',
     layoutext: '.hbs',
     layout: 'default',
-    data: '<%= config.src %>/data/*.{json,yml}',
+    data: '{<%= config.src %>,<%= config.tmp %>}/data/*.{json,yml}',
     partials: '<%= config.src %>/templates/partials/*.hbs',
     plugins: ['assemble-contrib-permalinks', 'assemble-contrib-sitemap'],
     helpers: ['handlebars-helper-slugify'],

@@ -44,6 +44,8 @@
     "grunt-contrib-uglify": "^0.5.1",
     "grunt-contrib-watch": "^0.6.1",
     "grunt-gh-pages": "^0.9.1",
+    "grunt-markdown-to-json": "^0.4.2",
+    "grunt-mkdir": "^0.1.2",
     "grunt-newer": "^0.7.0",
     "handlebars-helper-slugify": "^0.2.0",
     "jit-grunt": "^0.8.0",

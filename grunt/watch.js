@@ -1,6 +1,6 @@
 module.exports = {
 	assemble: {
-		files: [ '<%= config.src %>/{data,speakers,templates}/{,*/}*.{md,hbs,yml,json}' ],
+		files: [ '<%= config.src %>/{data,templates}/{,*/}*.{md,hbs,yml,json}' ],
 		tasks: [ 'assemble' ],
 	},
 	css: {
@@ -18,6 +18,10 @@ module.exports = {
 	less: {
 		files: [ '<%= config.src %>/**/*.less' ],
 		tasks: [ 'less','autoprefixer' ],
+	},
+	m2j: {
+		files: [ '<%= config.src %>/speakers/{,*/}*.md' ],
+		tasks: [ 'm2j','assemble' ],
 	},
 	livereload: {
 		options: {

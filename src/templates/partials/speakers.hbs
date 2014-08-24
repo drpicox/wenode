@@ -11,14 +11,14 @@
     <div class="row">
       {{#each speakers}}
       <div class="member col-xs-12 col-sm-6 col-md-3">
-        <a href="/speaker/{{slugify name}}.html">
+        <a href="/speaker/{{basename}}.html">
           <div class="hexagon hexagon-center member-portrait" style="background-image: url({{portrait}});">
             <div class="hexTop"></div>
             <div class="hexBottom"></div>
           </div>
         </a>
         <div class="member-profile text-center">
-          <span class="member-name">{{name}}</span>
+          <span class="member-name">{{title}}</span>
           <br />
           <i class="fa fa-twitter"></i>  <a href="http://twitter.com/{{twitter}}">{{twitter}}</a>
         </div>

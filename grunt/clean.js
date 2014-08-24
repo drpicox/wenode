@@ -5,4 +5,10 @@ module.exports = {
 			src: [ '<%= config.dist %>/*','!<%= config.dist %>/.git' ],
 		}]
 	},
+	tmp: {
+		files: [{
+			dot: true,
+			src: [ '<%= config.tmp %>/' ],
+		}]
+	},
 };

@@ -9,4 +9,7 @@ module.exports = function(grunt) {
 	// - loads grunt tasks under demand using jit-grunt
 	require('load-grunt-config')(grunt, {jitGrunt: true});
 
+	// non normalized tasks
+	grunt.loadNpmTasks('grunt-markdown-to-json');
+
 };
