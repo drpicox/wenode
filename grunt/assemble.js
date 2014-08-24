@@ -8,7 +8,7 @@ module.exports = {
     data: '{<%= config.src %>,<%= config.tmp %>}/data/*.{json,yml}',
     partials: '<%= config.src %>/templates/partials/*.hbs',
     plugins: ['assemble-contrib-permalinks', 'assemble-contrib-sitemap'],
-    helpers: ['handlebars-helper-slugify'],
+    helpers: ['handlebars-helper-slugify','handlebars-helpers'],
   },
   pages: {
     files: {

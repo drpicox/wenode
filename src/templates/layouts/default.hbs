@@ -28,9 +28,12 @@
   <link rel="shortcut icon" href="favicon.ico">
 </head>
 
-<body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
+<body 
+  {{#is page.basename 'index'}}
+  data-spy="scroll" data-target=".navbar-collapse" data-offset="50"
+  {{/is}}>
 
-  {{> home-navbar }}
+  {{> navbar }}
 
   <div role="main">
 

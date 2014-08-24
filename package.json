@@ -48,6 +48,7 @@
     "grunt-mkdir": "^0.1.2",
     "grunt-newer": "^0.7.0",
     "handlebars-helper-slugify": "^0.2.0",
+    "handlebars-helpers": "^0.5.8",
     "jit-grunt": "^0.8.0",
     "load-grunt-config": "^0.13.1",
     "load-grunt-tasks": "^0.6.0",
