@@ -14,6 +14,7 @@
 /////////////////////////////////////////////////////////////////////////////
 
 @primary-color: #88BF43;
+@primary-light-color: hsl(hue(@primary-color),saturation(@primary-color)/1, 95%);
 
 // Bootstrap: Scaffolding
 /////////////////////////////////////////////////////////////////////////////
@@ -49,10 +50,17 @@ h4,h5,h5 {
 /////////////////////////////////////////////////////////////////////////////
 
 @btn-default-bg: #FF7000;
+@btn-success-border: @primary-color;
+@btn-success-color: @primary-color;
+@btn-success-bg: white;
 
 .btn-default:hover {
   background-color: @btn-default-bg;
   color: white;
+}
+.btn-success:hover {
+  background-color: @primary-light-color;
+  text-shadow: 0 0.1em 0.1em white;
 }
 
 // Bootstrap: Navbar
