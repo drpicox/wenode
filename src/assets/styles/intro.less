@@ -1,0 +1,70 @@
+/*
+#intro {
+  height: auto;
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.8);
+  padding: 25px 0;
+}
+*/
+
+#intro {
+	box-shadow: 0 0 50px rgba(0, 0, 0, 0.8);
+	text-align: center;
+}
+
+.intro-motivation {
+  background: #1d1d1d;
+  font-size: 1.2em;
+  padding: 25px;
+  color: black;
+}
+
+.intro-motivation p {
+  color: white;
+}
+
+.intro-motivation .col-xs-12 {
+  border-left: dotted 1px #444;
+  @media (max-width: @screen-sm-min) { 
+    margin-top: 0.8em;
+    padding-top: 1.5em;
+    border-left: none;
+    border-top: dotted 1px #444;
+  }
+}
+.intro-motivation .col-xs-12:first-child {
+  border-left: none;
+  @media (max-width: @screen-sm-min) { 
+    margin-top: 0em;
+    padding-top: 0em;
+    border-top: none;
+  }
+}
+
+.title {
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+  background: url(/assets/images/wenode_logo.png) no-repeat;
+  background-size: 250px;
+}
+.title span {
+  display: none;
+}
+
+
+.mostimportant {
+  font-size: 1.5em;
+  margin-top: 45px;
+  padding: 25px;
+  padding-bottom: 5px;
+  color: black;
+  text-align: center;
+
+  @media (max-width: @screen-sm-min) { 
+    margin-top: -20px;
+    font-size: 1.2em;
+  }
+}

@@ -7,18 +7,14 @@
   <meta name="keywords" content="javascript, nodejs, node.js, backend, backendjs, servers, server, embedded, mobile">
   <meta name="author" content="Patrick Heneise, patrick@barcelonajs.org">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>WeNode Barcelona Speaker: {{title}}</title>
+  <title>{{site.title}}</title>
 
-  <!-- Bootstrap core CSS -->
-  <link rel="stylesheet" href="{{assets}}/css/bootstrap.min.css">
-
-  <!-- Custom styles for this template -->
-  <link href="{{assets}}/css/theme.css" rel="stylesheet">
+  <!-- All Styles -->
+  <link rel="stylesheet" href="../assets/styles/wenode.css">
 
   <!-- Webfonts -->
   <script type="text/javascript" src="//use.typekit.net/mqp5ibc.js"></script>
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -34,57 +30,75 @@
 
 <body>
 
-  <div class="container-fluid" role="main">
-    <div class="row">
-      <section id="speakers-intro" data-speed="4" data-type="background">
-        <a href="/"><h1 class="title"><span>WeNode</span></h1></a>
-        <span class="when">4. October 2014</span><br />
-        <span class="where">Mobile World Centre, C/ de Fontanella, 2, Barcelona</span>
-        <h3 class="text-center"><a class="btn btn-default btn-lg" href="http://tickets.barcelonajs.org">Buy your ticket</a></h3>
-      </section>
-    </div>
+  {{> speakers-navbar }}
 
-    <div class="topmargin row text-center">
-      <h3>{{title}}</h3>
-    </div>
+  <div role="main">
 
-    <div class="hexagon-center" style="background-image: url({{portrait}});">
-      <div class="hexTop"></div>
-      <div class="hexBottom"></div>
-    </div>
+    <div class="container">
 
-    <div class="row">
-      <div class="speaker-detail col-xs-6 col-xs-offset-3">
+      <div class="topmargin row text-center">
+        <h3>{{title}}</h3>
+      </div>
 
-        {{#markdown }}
+      <div class="row text-center">
+        <div class="hexagon hexagon-center" style="background-image: url({{portrait}});">
+          <div class="hexTop"></div>
+          <div class="hexBottom"></div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="speaker-detail col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+          {{#markdown }}
           {{> body  }}
-        {{/markdown }}
+          {{/markdown }}
+        </div>
+      </div>
 
+      <div class="row">
         <div class="text-center">
           <i class="fa fa-twitter"></i> <a href="http://twitter.com/{{twitter}}">{{twitter}}</a>
         </div>
       </div>
-    </div>
+    </div>{{! /.row }}
 
-    <div class="spacer row">
-      <h3 class="text-center register"><a class="btn btn-default btn-lg" href="http://tickets.barcelonajs.org">Buy your ticket</a></h3>
-      <p class="text-right"><i class="fa fa-twitter"></i> @bcnjs / #wenode</p>
-    </div>
-
-    <section class="meta row">
-      <div class="col-xs-12 text-center">
-        <h4>A BarcelonaJS event. <a href="http://barcelonajs.org/code">Code of Conduct</a></h4>
-        <a href="http://barcelonajs.org"><img class="header-logo" src="/assets/images/logo.png" alt="logo" /></a>
+    <div class="container">
+      <br><br><br>
+      <div class="row text-center">
+        {{> speakers-small}}
+        <a href="/" class="speakers-row-item">
+          <div class="hexagon-sm member-portrait" style="background-image: url({{assets}}/images/wenode_logo.png);">
+            <div class="hexTop"></div>
+            <div class="hexBottom"></div>
+          </div>
+        </a>
       </div>
-    </section>
+      <br><br>
+    </div>{{! /.row }}
 
+    {{> buy-ticket }}
+
+    <br><br>
+
+<section class="meta">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 text-center">
+        <a href="/"><img class="header-logo" src="{{assets}}/images/wenode_logo.png" alt="We node! Logo" /></a>
+      </div>
+    </div>
   </div>
+</section>
 
-  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
-  <!-- Include all compiled plugins (below), or include individual files as needed -->
-  <script src="{{assets}}/js/bootstrap.min.js"></script>
-  <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    {{> code-of-conduct }}
+
+  </div>{{! /[role=main] }}
+
+  <!-- Include all scripts -->
+  <script src="{{assets}}/scripts/wenode.js"></script>
+
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');

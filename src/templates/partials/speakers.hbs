@@ -1,0 +1,30 @@
+{{!-- #speakers section --}}
+<section id="speakers">
+
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12" >
+        <h3 class="col-sm-offset-1">Speakers</h3>
+      </div>
+    </div>
+    
+    <div class="row">
+      {{#each speakers}}
+      <div class="member col-xs-12 col-sm-6 col-md-3">
+        <a href="/speaker/{{slugify name}}.html">
+          <div class="hexagon hexagon-center member-portrait" style="background-image: url({{portrait}});">
+            <div class="hexTop"></div>
+            <div class="hexBottom"></div>
+          </div>
+        </a>
+        <div class="member-profile text-center">
+          <span class="member-name">{{name}}</span>
+          <br />
+          <i class="fa fa-twitter"></i>  <a href="http://twitter.com/{{twitter}}">{{twitter}}</a>
+        </div>
+      </div>
+      {{/each}}
+    </div>
+  </div>
+
+</section>

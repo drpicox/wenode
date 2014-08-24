@@ -1,0 +1,53 @@
+{{! agenda }}
+<section id="agenda">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <h3 class="col-sm-offset-1">Agenda</h3>
+      </div>
+    </div>
+
+    <div class="row">
+      <table class="agenda-table">
+        {{!-- 
+        <thead>
+          <tr>
+            <th class="col-xs-2"></th>
+            <th class="col-xs-5 text-center">Track 1</th>
+            <th class="col-xs-5 text-center">Track 2</th>
+          </tr>
+        </thead>
+        --}}
+        <tbody class="agenda-body">
+          {{#each agenda}}
+          <tr class="agenda-row {{class}}">
+            <td class="agenda-time">{{time}}</td>
+
+            <td class="agenda-talk" {{#if alltracks}}colspan="2" {{/if}}>
+              {{#if speaker}}<a href="speaker/{{slugify speaker}}.html">{{/if}}
+                <div class="agenda-title">{{{title}}}</div>
+                <div class="agenda-speaker">{{speaker}}</div>
+              {{#if speaker}}</a>{{/if}}
+              {{#if video}} {{video}} {{/if}}
+            </td>
+
+            {{#if workshop}}
+            <td class="agenda-workshop" {{#if workshop.timeslots}}rowspan="{{workshop.timeslots}}" {{/if}}>
+              <a href="speaker/{{slugify workshop.speaker}}.html">
+                <div class="agenda-title">{{{workshop.title}}}</div>
+                <div class="agenda-speaker">{{workshop.speaker}}</div>
+              </a>
+              {{#if workshop.video}} {{workshop.video}} {{/if}}
+            </td>
+            {{/if}}{{! workshop}}
+
+          </tr>
+          {{/each}}{{! agenda}}
+        </tbody>
+      </table>
+    </div>
+  </div>
+  
+  <br>
+
+</section>

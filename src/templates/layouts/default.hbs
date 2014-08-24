@@ -9,16 +9,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{site.title}}</title>
 
-  <!-- Bootstrap core CSS -->
-  <link rel="stylesheet" href="{{assets}}/css/bootstrap.min.css">
-
-  <!-- Custom styles for this template -->
-  <link href="{{assets}}/css/theme.css" rel="stylesheet">
+  <!-- All Styles -->
+  <link rel="stylesheet" href="assets/styles/wenode.css">
 
   <!-- Webfonts -->
   <script type="text/javascript" src="//use.typekit.net/mqp5ibc.js"></script>
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -32,45 +28,19 @@
   <link rel="shortcut icon" href="favicon.ico">
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
 
-  <div class="container-fluid" role="main">
+  {{> home-navbar }}
+
+  <div role="main">
 
     {{> body }}
 
   </div>
 
-  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
-  <!-- Include all compiled plugins (below), or include individual files as needed -->
-  <script src="{{assets}}/js/bootstrap.min.js"></script>
-  <script>
-    $(document).ready(function() {
-      // cache the window object
-      $window = $(window);
+  <!-- Include all scripts -->
+  <script src="{{assets}}/scripts/wenode.js"></script>
 
-      $('section[data-type="background"]').each(function() {
-        var $scroll = $(this);
-
-        $(window).scroll(function() {
-          // HTML5 proves useful for helping with creating JS functions!
-          // also, negative value because we're scrolling upwards
-          var yPos = -($window.scrollTop() / $scroll.data('speed'));
-
-          // background position
-          var coords = '50% ' + yPos + 'px';
-
-          // move the background
-          $scroll.css({
-            backgroundPosition: coords
-          });
-        }); // end window scroll
-      }); // end section function
-    }); // close out script
-
-    /* Create HTML5 element for IE */
-    document.createElement("section");
-  </script>
   <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

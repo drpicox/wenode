@@ -1,0 +1,32 @@
+default:
+    - 'build'
+
+build:
+    - 'assemble'
+    - 'concat'
+    - 'copy'
+    - 'less'
+    - 'newer:imagemin'
+    - 'autoprefixer'
+
+minimize:
+    - 'cssmin'
+    - 'uglify'
+
+serve:
+    - 'build'
+    - 'connect'
+    - 'watch'
+
+serve-dist:
+    - 'clean'
+    - 'build'
+    - 'minimize'
+    - 'connect:livereload:keepalive'
+
+publish:
+    - 'clean'
+    - 'build'
+    - 'minimize'
+    - 'gh-pages'
+
