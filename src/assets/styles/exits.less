@@ -1,0 +1,19 @@
+.exit-logo {
+	vertical-align: bottom;
+	max-height: 15em;
+	&:hover,&:active {
+		opacity: 0.9;
+	}
+
+}
+
+.exit-link{
+	font-size: 10em;
+	&:hover,&:active {
+		color: lighten(@primary-color, 10%);
+		text-decoration: none;
+	}
+	&:before {
+		content: "\0000a0";
+	}
+}
