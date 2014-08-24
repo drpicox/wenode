@@ -1,0 +1,11 @@
+.sponsors-table {
+	@bg: hsl(hue(@primary-color),saturation(@primary-color)/1, 96%);
+
+	td:nth-child(2n+1) {
+		background-color: @bg;
+		text-shadow: 0 1px 1px white;
+	}
+	td[colspan="5"] {
+		background-color: white;
+	}
+}
