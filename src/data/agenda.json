@@ -13,19 +13,20 @@
 	},
 	{
 	  "time": "10:00h",
-	  "title": "TBA",
+	  "title": "From PHP to organising Nodebp",
+		"speaker": "Gergely Nemeth",
 	  "alltracks": true
 	},
 	{
 	  "time": "10:35h",
-	  "title": "Property-based testing - another nail in TDD's coffin?",
-	  "speaker": "Christoph Neuroth",
+	  "title": "Microservices & Web Components Are The Same Thing",
+		"speaker": "Tim Perry",
 	  "alltracks": true
 	},
 	{
 	  "time": "11:10h",
-	  "title": "Microservices & Web Components Are The Same Thing",
-	  "speaker": "Tim Perry",
+		"title": "Property-based testing - another nail in TDD's coffin?",
+		"speaker": "Christoph Neuroth",
 	  "alltracks": true
 	},
 	{
@@ -67,7 +68,8 @@
 	},
 	{
 	  "time": "15:00h",
-	  "title": "TBA",
+	  "title": "Rapid prototyping with Meteor",
+		"speaker": "Francisco Calle Moreno",
 	  "workshop": {
 	    "title": "Experts Workshop, TBA",
 	    "timeslots": 4
@@ -75,8 +77,8 @@
 	},
 	{
 	  "time": "15:35h",
-	  "title": "From PHP to organising Nodebp",
-	  "speaker": "Gergely Nemeth"
+	  "title": " Building a greenhouse",
+	  "speaker": "Anette Bergo"
 	},
 	{
 	  "time": "16:10h",

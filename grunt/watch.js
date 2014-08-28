@@ -8,7 +8,7 @@ module.exports = {
 		tasks: [ 'copy:css','autoprefixer' ],
 	},
 	images: {
-		files: [ '<%= config.src %>/**/*.{jpg,png,gif}' ],
+		files: [ '<%= config.src %>/**/*.{jpg,png}' ],
 		tasks: [ 'newer:imagemin' ],
 	},
 	js: {

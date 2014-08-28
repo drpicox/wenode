@@ -4,7 +4,7 @@ module.exports = {
 			expand: true,
 			cwd: '<%= config.src %>',
 			dest: '<%= config.dist %>',
-			src: [ '**/*.{jpg,png,gif}' ],
+			src: [ '**/*.{jpg,png}' ],
 		}],
 	},
 };
