@@ -112,7 +112,7 @@ body {
 
 .topmargin {
   margin-top: 50px;
-  @media (max-width: @screen-xs-max) { 
+  @media (max-width: @screen-xs-max) {
     margin-top: 10px;
   }
 }
@@ -178,7 +178,7 @@ body {
   font-size: 28px;
 }
 
-.speaker, .supporters, .team, .agenda {
+.speaker, #supporters, #sponsors, .team, .agenda {
   margin-top: 75px;
   margin-bottom: 75px;
 }
@@ -187,20 +187,17 @@ body {
   color: gray;
 }
 
-.supporter {
+.supporter, .sponsor {
   height: 100px;
 }
 
-.supporter-logo {
+.supporter-logo, .sponsor-logo {
   max-width: 100%;
   vertical-align: middle;
-  @media (min-width: @screen-md-min) { 
+  @media (min-width: @screen-md-min) {
     max-width: 250px;
   }
 }
-
-
-
 
 .member {
   text-align: center;

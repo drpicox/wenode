@@ -1,58 +1,53 @@
 {
-  "supporters": [
-    {
-      "name": "Mobile World Capital",
-      "logo": "/assets/images/logo-sponsor-mwc2x.png",
-      "url": "http://mobileworldcapital.com"
-    },
-    {
-      "name": "JobFluent",
-      "logo": "/assets/images/logo-sponsor-jobfluent.jpg",
-      "url": "http://www.jobfluent.com"
-    },
-    {
-      "name": "Rising Stack",
-      "logo": "/assets/images/logo-sponsor-risingstack.jpg",
-      "url": "http://www.risingstack.com"
-    },
-    {
-      "name": "O'Reilly",
-      "logo": "/assets/images/logo-sponsor-oreilly.png",
-      "url": "http://www.oreilly.com"
-    },
-    {
-      "name": "MongoDB",
-      "logo": "/assets/images/logo-sponsor-mongodb.png",
-      "url": "http://www.mongodb.com"
-    },
-    {
-      "name": "mediasmart",
-      "logo": "/assets/images/logo-sponsor-mediasmart.jpg",
-      "url": "http://mediasmart.mobi"
-    },
-    {
-      "name": "mediasmart",
-      "logo": "/assets/images/logo-sponsor-arangodb.png",
-      "url": "https://www.arangodb.org"
-    },
-    {
-      "name": "barcinno",
-      "logo": "/assets/images/logo-sponsor-barcinno.jpg",
-      "url": "http://www.barcinno.com"
-    }
-  ],
-  "team": [
-    {
-      "twitter": "PatrickHeneise",
-      "name": "Patrick Heneise",
-      "portrait": "/assets/images/patrick.jpg",
-      "bio": "Patrick is Software Architect, engineering (mobile) solutions from server side services and APIs in node.js to html5 apps in JavaScript. He organises BarcelonaJS and the Couchbase Group Barcelona."
-    },
-    {
-      "twitter": "drpicox",
-      "name": "David Rodenas",
-      "portrait": "/assets/images/drpicox.jpg",
-      "bio": "David Rodenas is computer enthusiastic (also doctor and engineer) who has a deep understanding of programming models. Currently he architects and develops full-stack JavaScript applications."
-    }
-  ]
+  "sponsors": [{
+    "synchronous": [{
+      "name": "Netcentric Ibérica SLU",
+      "logo": "/assets/images/logo-sponsor-netcentric.jpg",
+      "url": "http://http://www.netcentric.biz"
+    }]
+  }],
+  "supporters": [{
+    "name": "Mobile World Capital",
+    "logo": "/assets/images/logo-sponsor-mwc2x.png",
+    "url": "http://mobileworldcapital.com"
+  }, {
+    "name": "JobFluent",
+    "logo": "/assets/images/logo-sponsor-jobfluent.jpg",
+    "url": "http://www.jobfluent.com"
+  }, {
+    "name": "Rising Stack",
+    "logo": "/assets/images/logo-sponsor-risingstack.jpg",
+    "url": "http://www.risingstack.com"
+  }, {
+    "name": "Velocity Conference",
+    "logo": "/assets/images/logo-sponsor-velocity.png",
+    "url": "http://velocityconf.com/velocityeu2014"
+  }, {
+    "name": "MongoDB",
+    "logo": "/assets/images/logo-sponsor-mongodb.png",
+    "url": "http://www.mongodb.com"
+  }, {
+    "name": "mediasmart",
+    "logo": "/assets/images/logo-sponsor-mediasmart.jpg",
+    "url": "http://mediasmart.mobi"
+  }, {
+    "name": "mediasmart",
+    "logo": "/assets/images/logo-sponsor-arangodb.png",
+    "url": "https://www.arangodb.org"
+  }, {
+    "name": "barcinno",
+    "logo": "/assets/images/logo-sponsor-barcinno.jpg",
+    "url": "http://www.barcinno.com"
+  }],
+  "team": [{
+    "twitter": "PatrickHeneise",
+    "name": "Patrick Heneise",
+    "portrait": "/assets/images/patrick.jpg",
+    "bio": "Patrick is Software Architect, engineering (mobile) solutions from server side services and APIs in node.js to html5 apps in JavaScript. He organises BarcelonaJS and the Couchbase Group Barcelona."
+  }, {
+    "twitter": "drpicox",
+    "name": "David Rodenas",
+    "portrait": "/assets/images/drpicox.jpg",
+    "bio": "David Rodenas is computer enthusiastic (also doctor and engineer) who has a deep understanding of programming models. Currently he architects and develops full-stack JavaScript applications."
+  }]
 }
