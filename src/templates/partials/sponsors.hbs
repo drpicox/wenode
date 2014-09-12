@@ -9,15 +9,19 @@
 
     <div class="row">
       {{#each sponsors}}
-        <h4>{{option}}</h4>
+
+        <div class="sponsor sponsor-option col-xs-12 col-sm-4 text-center">
+          <h4>&lt; {{option}} &gt;</h4>
+        </div>
+
         {{#each list}}
-          <div class="sponsor col-xs-12 col-sm-4 text-center">
+          <div class="sponsor sponsor-logo col-xs-12 col-sm-4 text-center">
             <a href="{{url}}?utm_source=wenode&utm_medium=sponsor&utm_campaign=barcelonajs" target="_blank">
-              <img class="sponsor-logo" src="{{logo}}" alt={{name}} />
+              <img src="{{logo}}" alt={{name}} />
             </a>
           </div>
-        {{/each}}
-      {{/each}}
+        {{/each}}{{!end sponsors[#option].list}}
+      {{/each}}{{!end sponsors}}
     </div>
 
     <div class="row">
