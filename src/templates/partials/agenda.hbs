@@ -32,15 +32,15 @@
               {{#if video}} {{video}} {{/if}}
             </td>
 
-            {{#if workshop}}
-            <td class="agenda-workshop" {{#if workshop.timeslots}}rowspan="{{workshop.timeslots}}" {{/if}}>
-              {{#if workshop.speaker}}<a href="speaker/{{slugify workshop.speaker}}.html">{{/if}}
-                <div class="agenda-title">{{{workshop.title}}}</div>
-                <div class="agenda-speaker">{{workshop.speaker}}</div>
-              {{#if workshop.speaker}}</a>{{/if}}
-              {{#if workshop.video}} {{workshop.video}} {{/if}}
+            {{#if alttrack}}
+            <td class="agenda-alttrack" {{#if alttrack.timeslots}}rowspan="{{alttrack.timeslots}}" {{/if}}>
+              {{#if alttrack.speaker}}<a href="speaker/{{slugify alttrack.speaker}}.html">{{/if}}
+                <div class="agenda-title">{{{alttrack.title}}}</div>
+                <div class="agenda-speaker">{{alttrack.speaker}}</div>
+              {{#if alttrack.speaker}}</a>{{/if}}
+              {{#if alttrack.video}} {{alttrack.video}} {{/if}}
             </td>
-            {{/if}}{{! workshop}}
+            {{/if}}{{! alttrack}}
 
           </tr>
           {{/each}}{{! agenda}}
