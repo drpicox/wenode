@@ -9,8 +9,8 @@
 
     <div class="row">
       {{#each sponsors}}
-        {{#each synchronous}}
-          <h4>Synchronous</h4>
+        <h4>{{option}}</h4>
+        {{#each list}}
           <div class="sponsor col-xs-12 col-sm-4 text-center">
             <a href="{{url}}?utm_source=wenode&utm_medium=sponsor&utm_campaign=barcelonajs" target="_blank">
               <img class="sponsor-logo" src="{{logo}}" alt={{name}} />

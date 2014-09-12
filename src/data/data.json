@@ -1,6 +1,7 @@
 {
   "sponsors": [{
-    "synchronous": [{
+    "option": "synchronous",
+    "list": [{
       "name": "Netcentric Ibérica SLU",
       "logo": "/assets/images/logo-sponsor-netcentric.jpg",
       "url": "http://www.netcentric.biz"
