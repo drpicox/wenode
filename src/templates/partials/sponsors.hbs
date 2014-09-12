@@ -7,13 +7,13 @@
       </div>
     </div>
 
-    <div class="row">
-      {{#each sponsors}}
+    {{#each sponsors}}
 
-        <div class="sponsor sponsor-option col-xs-12 col-sm-4 text-center">
-          <h4>&lt; {{option}} &gt;</h4>
-        </div>
+      <div class="row">
+          <h4 class="sponsor-option">&lt; {{option}} &gt;</h4>
+      </div>
 
+      <div class="row">
         {{#each list}}
           <div class="sponsor sponsor-logo col-xs-12 col-sm-4 text-center">
             <a href="{{url}}?utm_source=wenode&utm_medium=sponsor&utm_campaign=barcelonajs" target="_blank">
@@ -21,8 +21,9 @@
             </a>
           </div>
         {{/each}}{{!end sponsors[#option].list}}
-      {{/each}}{{!end sponsors}}
-    </div>
+      </div>
+
+    {{/each}}{{!end sponsors}}
 
     <br>
     <div class="row">
