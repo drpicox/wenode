@@ -71,7 +71,8 @@
 	  "title": "Rapid prototyping with Meteor",
 		"speaker": "Francisco Calle Moreno",
 	  "workshop": {
-	    "title": "Experts Workshop, TBA",
+	    "title": "Catbot Workshop",
+			"speaker": "Jérôme Loï",
 	    "timeslots": 4
 	  }
 	},
