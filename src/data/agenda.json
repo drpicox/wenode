@@ -39,7 +39,7 @@
 	  "time": "12:00h",
 	  "title": "The legend of HTML5: A link between worlds",
 	  "speaker": "Carlos Hernandez",
-	  "workshop": {
+	  "alttrack": {
 	    "title": "Building a MEAN Stack Single Page App in 2 Hours",
 	    "speaker": "Valeri Karpov",
 	    "timeslots": 4
@@ -70,11 +70,11 @@
 	  "time": "15:00h",
 	  "title": "Rapid prototyping with Meteor",
 		"speaker": "Francisco Calle Moreno",
-	  "workshop": {
+	  "alttrack": {
 	    "title": "Catbot Workshop",
 			"speaker": "Jérôme Loï",
-	    "timeslots": 4
-	  }
+			"timeslots": 4
+		}
 	},
 	{
 	  "time": "15:35h",

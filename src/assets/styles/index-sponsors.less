@@ -1,0 +1,23 @@
+.sponsor, .supporter {
+  height: 100px;
+}
+
+h4.sponsor-option {
+
+	background: @primary-light-color;
+	xcolor: darken(@primary-color,20%);
+	text-shadow: 0 0.1em 0.1em white;
+	text-align: center;
+
+}
+
+.sponsor-logo, .supporter-logo {	
+	line-height: 100px;
+	vertical-align: middle;
+	img {
+		max-width: 100%;
+		@media (min-width: @screen-md-min) {
+			max-width: 250px;
+		}		
+	}
+}

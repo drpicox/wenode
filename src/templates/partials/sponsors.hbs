@@ -7,21 +7,29 @@
       </div>
     </div>
 
-    <div class="row">
-      {{#each sponsors}}
-        {{#each synchronous}}
-          <h4>Synchronous</h4>
-          <div class="sponsor col-xs-12 col-sm-4 text-center">
+    {{#each sponsors}}
+
+      <div class="row">
+          <h4 class="sponsor-option">&lt; {{option}} &gt;</h4>
+      </div>
+
+      <div class="row">
+        {{#each list}}
+          <div class="sponsor sponsor-logo col-xs-12 col-sm-4 text-center">
             <a href="{{url}}?utm_source=wenode&utm_medium=sponsor&utm_campaign=barcelonajs" target="_blank">
-              <img class="sponsor-logo" src="{{logo}}" alt={{name}} />
+              <img src="{{logo}}" alt={{name}} />
             </a>
           </div>
-        {{/each}}
-      {{/each}}
-    </div>
+        {{/each}}{{!end sponsors[#option].list}}
+      </div>
 
-    <div class="col-xs-12 text-center">
-      Want to support or sponsor WeNode? Check out our <a href="sponsors.html">sponsorship packages</a>.
+    {{/each}}{{!end sponsors}}
+
+    <br>
+    <div class="row">
+      <div class="col-xs-12 text-center">
+        Want to support or sponsor WeNode? Check out our <a href="sponsors.html">sponsorship packages</a>.
+      </div>
     </div>
   </div>
 </section>
