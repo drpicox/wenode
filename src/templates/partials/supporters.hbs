@@ -10,8 +10,8 @@
     <div class="row">
       {{#each supporters}}
       <div class="supporter supporter-logo col-xs-12 col-sm-4 text-center">
-        <a href="{{url}}?utm_source=wenode&utm_medium=supporter&utm_campaign=barcelonajs" target="_blank">
-          <img src="{{logo}}" alt={{name}} />
+        <a href="{{url}}?utm_source=wenode&utm_medium=supporter&utm_campaign=barcelonajs" target="_blank"  data-supporter="{{name}}">
+          <img src="{{logo}}" alt="{{name}}" />
         </a>
       </div>
       {{/each}}
