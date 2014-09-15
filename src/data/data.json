@@ -9,7 +9,7 @@
   }],
   "supporters": [{
     "name": "Mobile World Capital",
-    "logo": "/assets/images/logo-sponsor-mwc2x.png",
+    "logo": "/assets/images/logo-sponsor-mwc2x.jpg",
     "url": "http://mobileworldcapital.com"
   }, {
     "name": "JobFluent",
@@ -21,24 +21,36 @@
     "url": "http://www.risingstack.com"
   }, {
     "name": "Velocity Conference",
-    "logo": "/assets/images/logo-sponsor-velocity.png",
+    "logo": "/assets/images/logo-sponsor-velocity.jpg",
     "url": "http://velocityconf.com/velocityeu2014"
   }, {
+    "name": "Microsoft",
+    "logo": "/assets/images/logo-sponsor-microsoft.jpg",
+    "url": "http://www.microsoft.com"
+  }, {
     "name": "MongoDB",
-    "logo": "/assets/images/logo-sponsor-mongodb.png",
+    "logo": "/assets/images/logo-sponsor-mongodb.jpg",
     "url": "http://www.mongodb.com"
   }, {
     "name": "mediasmart",
     "logo": "/assets/images/logo-sponsor-mediasmart.jpg",
     "url": "http://mediasmart.mobi"
   }, {
-    "name": "mediasmart",
-    "logo": "/assets/images/logo-sponsor-arangodb.png",
+    "name": "ArangoDB",
+    "logo": "/assets/images/logo-sponsor-arangodb.jpg",
     "url": "https://www.arangodb.org"
+  }, {
+    "name": "MOB - Makers of Barcelona",
+    "logo": "/assets/images/logo-sponsor-mob.jpg",
+    "url": "http://www.mob-barcelona.com"
   }, {
     "name": "barcinno",
     "logo": "/assets/images/logo-sponsor-barcinno.jpg",
     "url": "http://www.barcinno.com"
+  }, {
+    "name": "Atos",
+    "logo": "/assets/images/logo-sponsor-atos.jpg",
+    "url": "http://atos.net"
   }],
   "team": [{
     "twitter": "PatrickHeneise",
