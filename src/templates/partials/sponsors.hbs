@@ -16,8 +16,8 @@
       <div class="row">
         {{#each list}}
           <div class="sponsor sponsor-logo col-xs-12 col-sm-4 text-center">
-            <a href="{{url}}?utm_source=wenode&utm_medium=sponsor&utm_campaign=barcelonajs" target="_blank">
-              <img src="{{logo}}" alt={{name}} />
+            <a href="{{url}}?utm_source=wenode&utm_medium=sponsor&utm_campaign=barcelonajs" target="_blank" data-sponsor="{{name}}">
+              <img src="{{logo}}" alt="{{name}}" />
             </a>
           </div>
         {{/each}}{{!end sponsors[#option].list}}
