@@ -1,7 +1,7 @@
 ---
 layout: speakers
-title: Martin Neumann
-portrait: /assets/images/martin-neumann.jpg
+title: Martin Naumann
+portrait: /assets/images/martin-naumann.jpg
 twitter: g33konaut
 ---
 
