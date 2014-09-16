@@ -16,9 +16,9 @@
     "logo": "/assets/images/logo-sponsor-jobfluent.jpg",
     "url": "http://www.jobfluent.com"
   }, {
-    "name": "Rising Stack",
-    "logo": "/assets/images/logo-sponsor-risingstack.jpg",
-    "url": "http://www.risingstack.com"
+    "name": "uber",
+    "logo": "/assets/images/logo-sponsor-uber.jpg",
+    "url": "http://www.uber.com"
   }, {
     "name": "Velocity Conference",
     "logo": "/assets/images/logo-sponsor-velocity.jpg",
@@ -27,6 +27,10 @@
     "name": "Microsoft",
     "logo": "/assets/images/logo-sponsor-microsoft.jpg",
     "url": "http://www.microsoft.com"
+  }, {
+    "name": "Rising Stack",
+    "logo": "/assets/images/logo-sponsor-risingstack.jpg",
+    "url": "http://www.risingstack.com"
   }, {
     "name": "MongoDB",
     "logo": "/assets/images/logo-sponsor-mongodb.jpg",
