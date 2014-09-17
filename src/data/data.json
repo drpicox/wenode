@@ -5,6 +5,10 @@
       "name": "Netcentric Ibérica SLU",
       "logo": "/assets/images/logo-sponsor-netcentric.jpg",
       "url": "http://www.netcentric.biz"
+    },{
+      "name": "Rakuten",
+      "logo": "/assets/images/logo-sponsor-rakuten.jpg",
+      "url": "http://www.rakuten.com"
     }]
   }],
   "supporters": [{
@@ -43,6 +47,10 @@
     "name": "ArangoDB",
     "logo": "/assets/images/logo-sponsor-arangodb.jpg",
     "url": "https://www.arangodb.org"
+  }, {
+    "name": "Wayra",
+    "logo": "/assets/images/logo-sponsor-wayra.jpg",
+    "url": "http://wayra.co"
   }, {
     "name": "MOB - Makers of Barcelona",
     "logo": "/assets/images/logo-sponsor-mob.jpg",

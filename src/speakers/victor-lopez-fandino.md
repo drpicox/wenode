@@ -2,7 +2,7 @@
 layout: speakers
 title: Víctor López Fandiño
 portrait: /assets/images/victor-lopez-fandino.jpg
-twitter:
+twitter: v_fandino
 ---
 
 ## Bio
