@@ -16,6 +16,14 @@ $(function() {
 		ga('send','event','buyticket','click',$(this).attr('data-buyticket')+currentPath);
 	});
 
+	$('a[target="_blank"]').click(function() {
+		ga('send','event','leaveTo','click',$(this).attr('href'));
+	});
+
+	$('a[href^="mailto:"]').click(function() {
+		ga('send','event','mailTo','click',$(this).attr('href'));
+	});
+
 	$('.navbar-collapse').on('activate.bs.scrollspy', function(event) {
 		currentPath = location.pathname + $(event.target).find('a').attr('href');
 		ga('send','pageview',currentPath);
