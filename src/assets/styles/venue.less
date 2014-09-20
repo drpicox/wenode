@@ -1,0 +1,20 @@
+#venue {
+	padding-top: 100px;
+	padding-bottom: 50px;
+
+	@media (max-width: @screen-xs-max) { 
+		padding-top: 50px;
+	}
+
+	@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) { 
+		ul { padding-left: 15px; }
+		li {
+			font-size: 90%;
+		}
+	}
+
+	.venue-hexagon {
+		@media (max-width: @screen-sm-max) { .make-hexagon(0.7); }
+		@media (min-width: @screen-md-min) { .make-hexagon(1.1); }
+	}
+}
