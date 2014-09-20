@@ -1,22 +1,26 @@
+.exit-link {
+	font-size: 10em;
+	padding: 0 20px;
+	&:hover,&:active {
+		color: lighten(@primary-color, 10%);
+		text-decoration: none;
+	}
+}
+
 .exit-logo {
-	vertical-align: bottom;
-	max-height: 15em;
+	img {
+		vertical-align: bottom;
+		max-height: 1.5em;		
+	}
 	&:hover,&:active {
 		opacity: 0.9;
 	}
 
 }
 
-.exit-link{
-	font-size: 10em;
+.exit-link.exitx-buy {
+	color: darken(@btn-default-bg,10%);
 	&:hover,&:active {
-		color: lighten(@primary-color, 10%);
-		text-decoration: none;
-	}
-	&:before {
-		content: "\0000a0";
-	}
-	&:after {
-		content: "\0000a0";
-	}
+		color: @btn-default-bg;
+	}	
 }
