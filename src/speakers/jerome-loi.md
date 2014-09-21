@@ -13,4 +13,4 @@ Every one needs some inspiration, some motivation, for Jérôme, it was his cats
 A step by step guide to building your own internet controllable laser turret and cat dazzler... This workshop will teach you how to control an arduino micro controller and link it to the internet using node, serial communication and websockets. We will be using the nodeschool.io workshoper we made with the fine lads @NodeBotsUK
 
 
-Note: this workshop may require a full gcc chain and python 2.7 if you want to attend please download them beforehand to avoid spending the workshop downloading xCode.
+Note: this workshop require a gcc toolchain and python 2.7 please follow these [instructions](https://github.com/gorhgorh/wenode-nodebots-workshop/blob/master/preReq.md) if you wish to attend. 
