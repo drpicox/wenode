@@ -73,6 +73,10 @@
     "name": "Atos",
     "logo": "/assets/images/logo-sponsor-atos.jpg",
     "url": "http://atos.net"
+  }, {
+    "name": "Col·legi Oficial d'Enginyeria Informàtica de Catalunya",
+    "logo": "/assets/images/logo-sponsor-coeinf.jpg",
+    "url": "http://enginyeriainformatica.cat"
   }],
   "team": [{
     "twitter": "PatrickHeneise",
