@@ -9,6 +9,12 @@
       "name": "Rakuten",
       "logo": "/assets/images/logo-sponsor-rakuten.jpg",
       "url": "http://www.rakuten.com"
+    }]},{
+    "option": "asynchronous",
+    "list": [{
+      "name": "Joyent",
+      "logo": "/assets/images/logo-sponsor-joyent.jpg",
+      "url": "http://www.joyent.com"
     }]
   }],
   "supporters": [{
